@@ -1,0 +1,129 @@
+.dashboard {
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.grade {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grade_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.retangulo {
+    width: 33%;
+    height: 15vh;
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.grafico {
+    margin-top: 20px;
+    width: 100%;
+    height: 25vh;
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 1em 0 0 1em;
+}
+
+.graficoGeral {
+    margin-top: 20px;
+    width: 65%;
+    height: 30vh;
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 1em 0 0.2em 0;
+}
+
+.logs {
+    margin-top: 20px;
+    width: 33%;
+    height: 30vh;
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.configuracao_table {
+    padding: 1em 1em 0 1em;
+    position: relative;
+}
+
+.configuracao_table {
+    font-size: 1.3vh;
+    width: auto;
+    height: 30vh;
+}
+
+.carregando {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.carregando_texto {
+    padding-left: 2vh;
+}
+
+.retangulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+
+.retangulo_texto {
+    align-items: baseline;
+    color: rgb(80, 150, 83);
+    padding-left: 2px;
+}
+
+.retangulo_texto_error {
+    align-items: baseline;
+    color: rgb(211, 54, 27);
+    padding-left: 2px;
+}
+
+@media screen and (max-width: 750px) {
+    .grade {
+        display: flex;
+    }
+    .grade_footer {
+        justify-content: none;
+        display: flow-root;
+    }
+    .graficoGeral {
+        width: 60vh;
+    }
+    .logs {
+        width: 100%;
+        word-break: break-all;
+    }
+    .grafico {
+        width: 60vh;
+    }
+    .retangulo {
+        width: 31%;
+        display: inline-grid;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        font-size: 1.8vh;
+        justify-items: center;
+    }
+    .configuracao_table {
+        font-size: 1.3vh;
+    }
+}

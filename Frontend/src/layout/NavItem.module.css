@@ -1,0 +1,26 @@
+.textHide {
+    display: none;
+}
+
+.navItem {
+    display: none;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navItem {
+    display: flex;
+    color: #626161;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.navItem:hover, .navItem:global(.active) {
+    background: #eee;
+    color: black;
+}
+
+.navItem svg {
+    min-width: 30px;
+}

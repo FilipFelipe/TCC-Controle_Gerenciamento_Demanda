@@ -2,13 +2,13 @@
 
 ### Configuração de rede
 Editar o arquivo Wifi.ino
-```sh
+```c
 const char* ssid = "wifi";                          // Rede WIFI
 const char* password =  "wifiPW";                   // Senha da rede WIFI
 ```
 ### Configuração do MQTT
 Editar o arquivo MQTT.ino
-```sh
+```c
 #define ID_DEVICE "Esp_AB21AS"                      // Nome do Dispositivo (deve ser um nome único)
 const char *USUARIO = "user";                       // Usuário do MQTT
 const char *SENHA = "userPW";                       // Senha do MQTT

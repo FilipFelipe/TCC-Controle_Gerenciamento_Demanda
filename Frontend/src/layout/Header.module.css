@@ -1,0 +1,50 @@
+.menuButton {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 200px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+}
+
+.menuMinimized {
+    margin-left: 70px;
+    transition: 0.5s;
+}
+
+p {
+    color: white;
+}
+
+.headerText {
+    margin-left: 0.5rem;
+    margin-bottom: 0;
+    font-size: 1.1rem;
+}
+
+.btnSair {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 1rem;
+    background: transparent;
+    color: white;
+    height: 2rem;
+    font-size: 1rem;
+    border: 1px solid white;
+    padding: 0.3rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btnSair:hover {
+    background: white;
+    color: #2C2C2C;
+}
+
+.btnSair span {
+    margin-right: 0.5rem;
+}

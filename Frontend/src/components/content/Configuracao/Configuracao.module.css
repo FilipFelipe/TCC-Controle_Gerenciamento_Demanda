@@ -1,0 +1,31 @@
+.configuracao_frame {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    height: auto;
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.configuracao_form {
+    padding: 3em 5em 5em 5em;
+}
+
+.carregando {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+@media screen and (max-width: 850px) {
+    .configuracao_frame {
+        padding-bottom: 1vh;
+        width: 45vh;
+        height: 100%;
+    }
+    .configuracao_form {
+        padding: 2em 1em 5em 1em;
+    }
+}
