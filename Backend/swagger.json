@@ -1,0 +1,1451 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "description": "Documentação das rotas da API Energy Control IoT.",
+    "title": "Energy Control IoT",
+    "version": "0.0.19",
+    "contact": {
+      "url": "https://github.com/lucasamsilva/TCC-Energia-Eletrica",
+      "name": "Github"
+    },
+    "license": {
+      "name": "GPL-3.0",
+      "url": "https://opensource.org/licenses/GPL-3.0"
+    }
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3333/",
+      "description": "local"
+    },
+    {
+      "url": "http://localhost:5905/",
+      "description": "local"
+    },
+    {
+      "url": "http://ff-rasp.duckdns.org:5905",
+      "description": "VPS"
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT",
+        "description": "Informe o seu token JWT"
+      }
+    },
+    "responses": {
+      "401_naoAutorizado": {
+        "description": "Usuário não autorizado"
+      },
+      "403_naoPermitido": {
+        "description": "Ação não permitida"
+      },
+      "5xx_erroInterno": {
+        "description": "Erro interno, contate o administrador"
+      },
+      "400_erroRequisicao": {
+        "description": "Erro na requisição"
+      },
+      "2xx_sucesso": {
+        "description": "Sucesso na requisição"
+      }
+    },
+    "parameters": {},
+    "schemas": {
+      "loginUsuario": {
+        "type": "object",
+        "required": ["email", "senha"],
+        "properties": {
+          "email": {
+            "type": "string",
+            "example": "email@example.com"
+          },
+          "senha": {
+            "type": "string",
+            "example": "yourPassword"
+          }
+        }
+      },
+      "novoSensor": {
+        "type": "object",
+        "required": ["dispositivo", "equipamento", "porta_corrente"],
+        "properties": {
+          "dispositivo": {
+            "type": "number",
+            "example": 2
+          },
+          "equipamento": {
+            "type": "number",
+            "example": 3
+          },
+          "porta_tensao": {
+            "type": "number",
+            "example": 3
+          },
+          "porta_corrente": {
+            "type": "number",
+            "example": 4
+          },
+          "sensor_principal": {
+            "type": "boolean",
+            "example": true
+          }
+        }
+      },
+      "alteraSensor": {
+        "type": "object",
+        "properties": {
+          "dispositivo": {
+            "type": "number",
+            "example": 2
+          },
+          "porta_tensao": {
+            "type": "number",
+            "example": 3
+          },
+          "porta_corrente": {
+            "type": "number",
+            "example": 4
+          }
+        }
+      },
+      "criarRegra": {
+        "type": "object",
+        "required": [
+          "tolerancia",
+          "limiar_atuacao",
+          "demanda_ponta",
+          "demanda_fora_ponta",
+          "controlar_demanda",
+          "horario_ponta"
+        ],
+        "properties": {
+          "tolerancia": {
+            "type": "integer",
+            "example": "5"
+          },
+          "limiar_atuacao": {
+            "type": "integer",
+            "example": "98"
+          },
+          "demanda_ponta": {
+            "type": "integer",
+            "example": "100"
+          },
+          "demanda_fora_ponta": {
+            "type": "integer",
+            "example": "110"
+          },
+          "controlar_demanda": {
+            "type": "boolean",
+            "example": true
+          },
+          "horario_ponta": {
+            "type": "string",
+            "example": "18:00"
+          }
+        }
+      },
+      "criarLocal": {
+        "type": "object",
+        "required": ["nome"],
+        "properties": {
+          "nome": {
+            "type": "string",
+            "example": "Caixa de distribuição 2A"
+          }
+        }
+      },
+      "criarDispositivo": {
+        "type": "object",
+        "required": ["mac", "local"],
+        "properties": {
+          "mac": {
+            "type": "string",
+            "example": "00-0C-6E-3C-D1-6D"
+          },
+          "local": {
+            "type": "integer",
+            "example": "1"
+          }
+        }
+      },
+      "criarAtuador": {
+        "type": "object",
+        "required": ["dispositivo", "equipamento", "porta"],
+        "properties": {
+          "dispositivo": {
+            "type": "number",
+            "example": 2
+          },
+          "equipamento": {
+            "type": "number",
+            "example": 3
+          },
+          "porta": {
+            "type": "number",
+            "example": 3
+          }
+        }
+      },
+      "criarEquipamento": {
+        "type": "object",
+        "required": [
+          "nome",
+          "prioridade",
+          "tensao_equipamento",
+          "numero_fases"
+        ],
+        "properties": {
+          "nome": {
+            "type": "string",
+            "example": "Ar-condicionado sala diretoria"
+          },
+          "prioridade": {
+            "type": "integer",
+            "example": "1"
+          },
+          "tensao_equipamento": {
+            "type": "integer",
+            "example": "220"
+          },
+          "numero_fases": {
+            "type": "integer",
+            "example": "2"
+          }
+        }
+      },
+      "alterarEquipamento": {
+        "type": "object",
+        "properties": {
+          "nome": {
+            "type": "string",
+            "example": "Ar-condicionado RH"
+          },
+          "prioridade": {
+            "type": "integer",
+            "example": "2"
+          }
+        }
+      },
+      "alterarDispositivo": {
+        "type": "object",
+        "properties": {
+          "ativo": {
+            "type": "boolean",
+            "example": true
+          },
+          "local": {
+            "type": "integer",
+            "example": "2"
+          }
+        }
+      },
+      "criarUsuario": {
+        "type": "object",
+        "required": ["email", "senha", "nome", "confirmarSenha"],
+        "properties": {
+          "nome": {
+            "type": "string",
+            "example": "Seu nome"
+          },
+          "email": {
+            "type": "string",
+            "example": "email@exemplo.com"
+          },
+          "senha": {
+            "type": "string",
+            "example": "Sua senha"
+          },
+          "confirmarSenha": {
+            "type": "string",
+            "example": "Sua senha"
+          }
+        }
+      },
+      "atualizarUsuario": {
+        "type": "object",
+        "properties": {
+          "administrador": {
+            "type": "string",
+            "example": "1"
+          },
+          "ativo": {
+            "type": "string",
+            "example": "0"
+          },
+          "nome": {
+            "type": "string",
+            "example": "Seu nome"
+          },
+          "senha": {
+            "type": "string",
+            "example": "Sua senha"
+          },
+          "confirmarSenha": {
+            "type": "string",
+            "example": "Sua senha"
+          }
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "bearerAuth": []
+    }
+  ],
+  "tags": [
+    {
+      "name": "Autenticação",
+      "description": "Rotas de autorização de usuário na aplicação"
+    },
+    {
+      "name": "Usuários",
+      "description": "Rotas para operações com os usuários da aplicação"
+    },
+    {
+      "name": "Local",
+      "description": "Rotas para criação e busca dos locais cadastrados"
+    },
+    {
+      "name": "Dispositivos",
+      "description": "Rotas para operações com os dispositivos da aplicação"
+    },
+    {
+      "name": "Sensor",
+      "description": "Rotas para operações com os sensores da aplicação"
+    },
+    {
+      "name": "Atuador",
+      "description": "Rotas para operações com os atuadores da aplicação"
+    },
+    {
+      "name": "Demanda",
+      "description": "Rotas para visualização de uso de demanda"
+    },
+    {
+      "name": "Equipamentos",
+      "description": "Rotas para operação com os equipamentos da aplicação"
+    },
+    {
+      "name": "Auditoria",
+      "description": "Rotas para consulta da auditoria do sistema"
+    }
+  ],
+  "paths": {
+    "/equipamento": {
+      "post": {
+        "summary": "Cria novo equipamento",
+        "tags": ["Equipamentos"],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/criarEquipamento"
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "400": {
+            "$ref": "#/components/responses/400_erroRequisicao"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      },
+      "get": {
+        "summary": "Retorna lista de equipamento",
+        "tags": ["Equipamentos"],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "description": "Página que deve ser retornada",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Número de itens que devem ser retornados",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "description": "",
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      }
+    },
+    "/atuador": {
+      "post": {
+        "summary": "Cria novo atuador",
+        "tags": ["Atuador"],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/criarAtuador"
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "400": {
+            "$ref": "#/components/responses/400_erroRequisicao"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      },
+      "get": {
+        "summary": "Retorna lista de atuadores",
+        "tags": ["Atuador"],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "description": "Página que deve ser retornada",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Número de itens que devem ser retornados",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "description": "",
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      }
+    },
+    "/atuador/{id}": {
+      "put": {
+        "summary": "Altera atuador",
+        "tags": ["Atuador"],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "schema": {
+              "type": "integer"
+            },
+            "required": true,
+            "description": "identificador do atuador"
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/criarAtuador"
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "400": {
+            "$ref": "#/components/responses/400_erroRequisicao"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      },
+      "get": {
+        "summary": "Retorna atuador informado por parâmetro",
+        "tags": ["Atuador"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "id do atuador a ser retornado",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "description": "",
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      }
+    },
+    "/equipamento/{id}": {
+      "put": {
+        "summary": "Altera equipamento informado por parâmetro",
+        "tags": ["Equipamentos"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "identificador do equipamento",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/alterarEquipamento"
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "400": {
+            "$ref": "#/components/responses/400_erroRequisicao"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      },
+      "delete": {
+        "summary": "Deleta o equipamento informado por parâmetro",
+        "tags": ["Equipamentos"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "identificador do equipamento",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "400": {
+            "$ref": "#/components/responses/400_erroRequisicao"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      },
+      "get": {
+        "summary": "Retorna equipamento informado por parâmetro",
+        "tags": ["Equipamentos"],
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "identificador do equipamento",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "400": {
+            "$ref": "#/components/responses/400_erroRequisicao"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      }
+    },
+    "/auditoria": {
+      "get": {
+        "tags": ["Auditoria"],
+        "summary": "Retorna auditoria do sistema com paginação",
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      }
+    },
+    "/local": {
+      "post": {
+        "tags": ["Local"],
+        "summary": "Cria novo local",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/criarLocal"
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "400": {
+            "$ref": "#/components/responses/400_erroRequisicao"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      },
+      "get": {
+        "tags": ["Local"],
+        "summary": "Retorna lista de locais",
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      }
+    },
+    "/dispositivo": {
+      "post": {
+        "summary": "Cria novo dispositivo",
+        "tags": ["Dispositivos"],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/criarDispositivo"
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "400": {
+            "$ref": "#/components/responses/400_erroRequisicao"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      },
+      "get": {
+        "summary": "Retorna lista de dispositivos",
+        "tags": ["Dispositivos"],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "description": "Página que deve ser retornada",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Número de itens que devem ser retornados",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "description": "",
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      }
+    },
+    "/dispositivo/{id}": {
+      "put": {
+        "summary": "Altera dispositivo informado por parâmetro",
+        "tags": ["Dispositivos"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "identificador do dispositivo",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/alterarDispositivo"
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "400": {
+            "$ref": "#/components/responses/400_erroRequisicao"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      },
+      "get": {
+        "summary": "Retorna dispositivo informado por parâmetro",
+        "tags": ["Dispositivos"],
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "identificador do dispositivo",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "400": {
+            "$ref": "#/components/responses/400_erroRequisicao"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      }
+    },
+    "/medicoes": {
+      "get": {
+        "summary": "Retorna lista de medições",
+        "tags": ["Medições"],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "description": "Página que deve ser retornada",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Número de itens que devem ser retornados",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "description": "",
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      }
+    },
+    "/medicoes/{id}": {
+      "get": {
+        "summary": "Retorna medição informado por parâmetro",
+        "tags": ["Medições"],
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "identificador do dispositivo",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "400": {
+            "$ref": "#/components/responses/400_erroRequisicao"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      }
+    },
+    "/demanda": {
+      "get": {
+        "summary": "Retorna lista com as demandas calculadas",
+        "tags": ["Demanda"],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "description": "Página que deve ser retornada",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Número de itens que devem ser retornados",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      }
+    },
+    "/demanda/media": {
+      "get": {
+        "summary": "Retorna a demanda média no período informado, caso o período não seja informado será retornado a demanda média do dia atual",
+        "tags": ["Demanda"],
+        "parameters": [
+          {
+            "name": "inicio",
+            "in": "query",
+            "description": "data inicial do período",
+            "example": "2021-02-10",
+            "required": false,
+            "schema": {
+              "type": "object"
+            }
+          },
+          {
+            "name": "fim",
+            "in": "query",
+            "description": "data inicial do período",
+            "example": "2021-02-20",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      }
+    },
+    "/login": {
+      "post": {
+        "security": [],
+        "tags": ["Autenticação"],
+        "summary": "Realiza o login na aplicação e retorna o token do usuário",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/loginUsuario"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "400": {
+            "$ref": "#/components/responses/400_erroRequisicao"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      }
+    },
+    "/sensor": {
+      "post": {
+        "tags": ["Sensor"],
+        "summary": "Cria novo sensor",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/novoSensor"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "400": {
+            "$ref": "#/components/responses/400_erroRequisicao"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      },
+      "get": {
+        "summary": "Retorna lista de sensores",
+        "tags": ["Sensor"],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "description": "Página que deve ser retornada",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Número de itens que devem ser retornados",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      }
+    },
+    "/sensor/{id}": {
+      "get": {
+        "summary": "Retorna o sensor informado por parâmetro",
+        "tags": ["Sensor"],
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "identificador do sensor",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "400": {
+            "$ref": "#/components/responses/400_erroRequisicao"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      },
+      "put": {
+        "summary": "Altera sensor informado por parâmetro",
+        "tags": ["Sensor"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "identificador do sensor",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/alteraSensor"
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "400": {
+            "$ref": "#/components/responses/400_erroRequisicao"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      },
+      "delete": {
+        "summary": "Deleta o sensor informado por parâmetro",
+        "tags": ["Sensor"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "identificador do sensor",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "400": {
+            "$ref": "#/components/responses/400_erroRequisicao"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      }
+    },
+    "/controle": {
+      "get": {
+        "summary": "Retorna a última regra de controle (Necessário ser administrador)",
+        "tags": ["Controle"],
+        "description": "",
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      },
+      "post": {
+        "tags": ["Controle"],
+        "summary": "Realiza o cadastro de uma nova regra de controle (Necessário ser administrador)",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/criarRegra"
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "400": {
+            "$ref": "#/components/responses/400_erroRequisicao"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      }
+    },
+    "/usuarios": {
+      "post": {
+        "summary": "Cria novo usuário (Necessário ser administrador)",
+        "description": "Cria um novo usuário no banco de dados",
+        "tags": ["Usuários"],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/criarUsuario"
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "400": {
+            "$ref": "#/components/responses/400_erroRequisicao"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      },
+      "get": {
+        "summary": "Retorna a lista de usuários cadastrados (Necessário ser administrador)",
+        "tags": ["Usuários"],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "description": "Página que deve ser retornada",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Número de itens que devem ser retornados",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "tipo",
+            "in": "query",
+            "description": "Tipos do usuário - inativo ",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      }
+    },
+    "/usuarios/{id}": {
+      "put": {
+        "summary": "Atualiza o status de ativo do usuário informado por parâmetro (Necessário ser administrador)",
+        "tags": ["Usuários"],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/atualizarUsuario"
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "identificador do usuário",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "400": {
+            "$ref": "#/components/responses/400_erroRequisicao"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      },
+      "get": {
+        "summary": "Retorna o usuário informado por parâmetro (Necessário ser administrador)",
+        "tags": ["Usuários"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "id do usuário a ser retornado",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "description": "",
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/2xx_sucesso"
+          },
+          "401": {
+            "$ref": "#/components/responses/401_naoAutorizado"
+          },
+          "403": {
+            "$ref": "#/components/responses/403_naoPermitido"
+          },
+          "500": {
+            "$ref": "#/components/responses/5xx_erroInterno"
+          }
+        }
+      }
+    }
+  }
+}
