@@ -44,29 +44,39 @@ module.exports = (app) => {
       date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate()
     );
   };
-  const teste = async (req, res) => {
+  const listarDashboard = async (req, res) => {
 
     try {
+      let demanda_tempo = []
+      let media_dia = [0, 0, 0, 0, 0, 0, 0]
       const demanda = await app.knex('*').column('valor', 'criado_em').from('demanda').orderBy('id').limit(7);
       const controle = await app.knex('*').column('controlar_demanda').from('controle').orderBy('id', 'desc').limit(1);
-      let demanda_min = []
-      for (let index = 0; index < demanda.length; index++) {
-        demanda_min.push({ name: demanda[index].criado_em.toLocaleString().substr(11, 5) , Demanda: + demanda[index].valor })
+      const monitoramento = await app.knex('*').sum('ativo as number').from('dispositivo').where({ operante: 1 });
+      console.log(monitoramento[0].number);
+      if (monitoramento[0].number != null){
+        monitoramento.controle = 1;
+      }else{
+        monitoramento.controle = 0;
       }
-      demanda_min.reverse();
-      const data_media = [{ name: 'Seg', Demanda: getRandomArbitrary() }, { name: 'Ter', Demanda: getRandomArbitrary() }, { name: 'Qua', Demanda: getRandomArbitrary() }, { name: 'Qui', Demanda: getRandomArbitrary() }, { name: 'Sex', Demanda: getRandomArbitrary() }, { name: 'Sáb', Demanda: getRandomArbitrary() }, { name: 'Dom', Demanda: getRandomArbitrary() }];
-      return OK(res, [{ media_dias: data_media, media_min: demanda_min, ultimaDemanda: demanda[0].valor, controle_status: controle[0].controlar_demanda }]);
+      const mediaQuery = await app.knex.raw('SELECT round(AVG( valor ),2) as MediaDia , DAY( `criado_em` ) as Dia, criado_em as Data FROM demanda WHERE DATE_SUB(  `criado_em` , INTERVAL 1 DAY ) GROUP BY DAY( `criado_em` ) DESC LIMIT 7;');
+      const media = mediaQuery[0];
+      for (let i = 0; i < media.length; i++) {
+        media_dia[media[i].Data.getDay()] = media[i].MediaDia;
+      }
+      for (let index = 0; index < demanda.length; index++) {
+        demanda_tempo.push({ name: demanda[index].criado_em.toLocaleString().substr(11, 5) , Demanda: + demanda[index].valor })
+      }
+      demanda_tempo.reverse();
+      const data_media = [{ name: 'Seg', Demanda: media_dia[1] }, { name: 'Ter', Demanda: media_dia[2] }, { name: 'Qua', Demanda: media_dia[3] }, { name: 'Qui', Demanda: media_dia[4] }, { name: 'Sex', Demanda: media_dia[5] }, { name: 'Sáb', Demanda: media_dia[6] }, { name: 'Dom', Demanda: media_dia[0] }];
+      return OK(res, [{ media_dias: data_media, media_min: demanda_tempo, ultimaDemanda: demanda[0].valor, controle_status: controle[0].controlar_demanda, controle_monitoramento: monitoramento.controle }]);
     } catch (error) {
       return ERRO_INTERNO(res, error);
     }
   };
 
-  function getRandomArbitrary() {
-    return Math.ceil(Math.random() * (500 - 10) + 10);
-  }
   return {
     demandaMedia,
     listarDemanda,
-    teste,
+    listarDashboard,
   };
 };

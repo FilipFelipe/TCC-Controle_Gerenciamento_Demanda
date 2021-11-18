@@ -1,0 +1,2061 @@
+[2021-08-06T18:03:09.985] [ERROR] default - Access denied for user 'root'@'localhost' (using password: YES)
+[2021-08-06T18:03:24.118] [ERROR] default - Undefined binding(s) detected when compiling FIRST. Undefined column(s): [sensor.porta_corrente] query: select * from `sensor` inner join `dispositivo` on `dispositivo`.`mac` = `undefined` where `sensor`.`porta_tensao` is null and `sensor`.`porta_corrente` = ? limit ?
+[2021-08-06T18:06:19.376] [ERROR] default - select * from `sensor` inner join `dispositivo` on `dispositivo`.`mac` = `00:0C:6E:6D` where `sensor`.`porta_tensao` is null and `sensor`.`porta_corrente` = 10 limit 1 - Unknown column '00:0C:6E:6D' in 'on clause'
+[2021-08-06T18:11:04.854] [ERROR] default - select * from `sensor` inner join `dispositivo` on `dispositivo`.`mac` = `00:0C:6E:6D` where `sensor`.`porta_tensao` is null and `sensor`.`porta_corrente` = 10 limit 1 - Unknown column '00:0C:6E:6D' in 'on clause'
+[2021-08-06T18:13:22.849] [ERROR] default - insert into `potencia` (`id`, `potencia`) values (1, 5913) - Field 'equipamento' doesn't have a default value
+[2021-08-06T20:49:00.800] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:49:03.792] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:49:06.804] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:49:09.827] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:49:12.849] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:49:15.862] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:49:18.905] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:49:21.889] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:49:24.923] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:49:30.952] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:49:33.962] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:49:36.996] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:49:39.999] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:49:43.012] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:49:46.035] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:49:49.047] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:49:52.070] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:49:55.102] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:49:58.105] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:50:01.121] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:50:04.141] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:50:07.153] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:50:10.168] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:50:13.219] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:50:16.203] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:50:19.225] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:50:22.249] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:50:25.261] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:50:28.274] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:50:31.307] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:50:34.311] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:50:37.323] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:50:40.345] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:50:43.358] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:50:46.380] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:50:49.423] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:50:52.410] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:50:55.430] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:50:58.443] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:51:01.464] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:51:04.478] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:51:07.521] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:51:10.513] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:51:13.538] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:51:16.549] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:51:19.572] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:51:22.586] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:51:25.618] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:51:28.621] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:51:31.634] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:51:34.657] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:51:37.670] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:51:40.693] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:51:43.734] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:51:46.728] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:51:49.741] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:51:52.763] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:51:55.776] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:51:58.800] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:52:01.832] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:52:04.835] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:52:07.847] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:52:10.873] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:52:13.884] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:52:16.906] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:52:19.939] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:52:22.932] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:52:25.955] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:52:28.967] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:52:31.991] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:52:35.003] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:52:38.272] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:52:41.040] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:52:44.052] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:52:47.075] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:52:50.088] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:52:53.110] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:52:56.144] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:52:59.147] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:53:02.159] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:53:05.181] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:53:08.194] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:53:11.217] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:53:14.250] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:53:17.252] [ERROR] default - Unexpected token C in JSON at position 9
+[2021-08-06T20:55:12.544] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:55:15.535] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:55:18.558] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:55:21.581] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:55:24.594] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:55:27.605] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:55:30.650] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:55:33.642] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:55:36.665] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:55:39.687] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:55:42.701] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:55:45.713] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:55:48.745] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:55:51.748] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:55:54.772] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:55:57.785] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:56:00.807] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:56:03.820] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:56:06.853] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:56:09.856] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:56:12.869] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:56:15.893] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:56:18.903] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:56:21.927] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:56:24.960] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:56:27.963] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:56:30.976] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:56:33.998] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:56:37.011] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:56:40.034] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:56:43.076] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:56:46.079] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:56:49.083] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:56:52.106] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:56:55.120] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:56:58.141] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:57:01.173] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:57:04.177] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:57:07.189] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:57:10.212] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:57:13.226] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:57:16.249] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:57:19.281] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:57:22.284] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:57:25.296] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:57:28.320] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:57:31.333] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:57:34.354] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:57:37.387] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:57:40.391] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:57:43.404] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:57:46.415] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:57:49.439] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:57:52.452] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:57:55.494] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:57:58.487] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:58:01.510] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:58:04.523] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:58:07.546] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:58:10.559] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:58:13.601] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:58:16.594] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:58:19.617] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:58:22.630] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:58:25.653] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:58:28.666] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T20:58:31.699] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:06:41.621] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:06:44.624] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:06:47.646] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:06:58.300] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:07:01.294] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:07:04.296] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:07:07.300] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:07:10.313] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:07:13.316] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:07:16.339] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:07:19.332] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:07:22.335] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:07:25.348] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:07:28.351] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:07:31.354] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:07:34.390] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:07:37.370] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:07:40.383] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:07:43.386] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:07:46.389] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:07:49.408] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:07:52.425] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:07:55.408] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:07:58.421] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:08:01.424] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:08:04.427] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:08:07.439] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:08:10.463] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:08:13.446] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:08:16.459] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:08:19.462] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:08:22.465] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:08:25.478] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:08:28.501] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:08:31.484] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:08:34.500] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:08:37.500] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:08:40.503] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:08:43.516] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:08:46.539] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:08:49.534] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:08:52.535] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:08:55.538] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:08:58.542] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:09:01.553] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:09:04.584] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:09:07.561] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:09:10.574] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:09:13.578] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:09:16.588] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:09:19.592] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:09:22.626] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:09:25.598] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:09:28.611] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:09:31.632] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:09:34.617] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:09:37.630] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:09:40.653] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:09:43.646] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:09:46.650] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:09:49.653] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:09:52.665] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:09:55.668] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:09:58.693] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:10:01.684] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:10:04.687] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:10:07.690] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:10:10.703] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:10:13.706] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:10:16.730] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:10:19.722] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:10:22.725] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:10:25.729] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:10:28.742] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:10:31.745] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:10:34.767] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:10:37.761] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:10:40.764] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:10:43.777] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:10:46.780] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:10:49.782] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:10:52.805] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:10:55.799] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:10:58.802] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:11:01.814] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:11:04.818] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:11:07.821] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:11:10.843] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:11:13.836] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:11:16.840] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:11:19.853] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:11:22.856] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:11:25.859] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:11:28.882] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:11:31.875] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:11:34.878] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:11:37.891] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:11:40.896] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:11:43.898] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:11:46.930] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:11:49.914] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:11:52.921] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:11:55.929] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:11:58.933] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:12:01.946] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:12:04.969] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:12:07.953] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:12:10.966] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:12:13.969] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:12:16.972] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:12:19.985] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:12:23.008] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:12:25.992] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:12:29.004] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:12:32.008] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:12:35.020] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:12:38.025] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:12:41.047] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:12:44.040] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:12:47.043] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:12:50.047] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:12:53.059] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:12:56.063] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:12:59.086] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:13:02.078] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:13:05.081] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:13:08.095] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:13:11.098] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:13:14.100] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:13:17.130] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:13:20.119] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:13:23.121] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:13:26.123] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:13:29.137] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:13:32.140] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:13:35.163] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:13:38.157] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:13:41.159] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:13:44.172] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:13:51.498] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:13:51.518] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:13:53.201] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:13:56.194] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:13:59.200] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:14:10.424] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:14:13.428] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:14:16.449] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:14:19.462] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:14:22.484] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:14:25.497] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:14:28.540] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:14:31.533] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:14:34.556] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:14:37.570] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:14:40.592] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:14:43.605] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:14:46.648] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:15:23.788] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:15:26.801] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:15:29.814] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:15:32.827] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:15:35.850] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:15:38.863] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:15:41.897] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:15:44.899] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:15:47.922] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:15:50.935] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:15:53.959] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:15:56.972] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:16:00.015] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:16:03.007] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:16:06.029] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:16:09.042] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:16:12.054] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:16:15.077] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:16:27.743] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:16:30.744] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:16:33.757] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:16:36.779] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:16:39.802] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:16:42.816] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:16:45.847] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:16:48.854] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:16:51.873] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:16:54.886] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:16:57.899] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:17:00.922] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:17:03.956] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:17:06.958] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:17:09.971] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:17:12.994] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:17:16.008] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:17:19.030] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:17:22.069] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:17:25.065] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:17:28.088] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:17:31.102] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:17:34.114] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:17:37.127] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:17:40.171] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:17:43.164] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:17:46.187] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:17:49.198] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:17:52.221] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:17:55.245] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:17:58.267] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:18:01.270] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:18:04.293] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:18:07.307] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:18:10.319] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:18:13.342] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:18:16.374] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:18:19.378] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:18:22.391] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:18:25.413] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:18:28.427] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:18:31.449] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:18:34.482] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:18:37.485] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:18:40.498] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:18:43.521] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:18:46.539] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:18:49.547] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:18:52.589] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:18:55.583] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:18:58.605] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:19:01.618] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:19:04.642] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:19:07.654] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:19:10.686] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:19:13.690] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:19:16.713] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:19:19.726] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:19:22.749] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:19:25.761] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:19:28.794] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:19:31.797] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:19:34.810] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:19:37.833] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:19:40.846] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:19:43.869] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:19:46.902] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:19:49.905] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:19:52.917] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:19:55.941] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:19:58.954] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:20:01.976] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:20:05.176] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:20:08.001] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:20:11.024] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:20:23.037] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:20:26.050] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:20:29.063] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:20:32.076] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:20:35.099] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:20:38.112] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:20:41.154] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:20:44.148] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:20:47.170] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:20:50.183] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:20:53.206] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:20:56.220] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:20:59.252] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:21:02.257] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:21:05.356] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:21:08.290] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:21:11.303] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:21:14.326] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:21:25.177] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:21:28.171] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:21:31.183] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:21:34.197] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:21:37.219] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:21:40.232] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:21:43.294] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:21:46.268] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:21:49.290] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:21:52.303] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:21:55.326] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:21:58.339] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:22:01.392] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:22:04.385] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:22:07.398] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:22:10.411] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:22:13.433] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:22:16.446] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:22:27.169] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:22:30.182] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:22:33.194] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:22:36.208] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:22:39.231] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:22:42.244] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:22:45.279] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:22:48.279] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:22:51.302] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:22:54.315] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:22:57.338] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:23:00.354] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:23:03.383] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:23:06.386] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:23:09.410] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:23:12.422] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:23:15.435] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:23:18.458] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:23:21.511] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:23:24.494] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:23:27.507] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:23:30.529] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:23:33.542] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:23:36.565] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:23:39.608] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:23:42.601] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:23:45.616] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:23:48.638] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:23:51.653] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:23:54.663] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:23:57.705] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:24:00.709] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:24:03.721] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:24:06.734] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:24:09.758] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:24:12.771] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:24:15.804] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:24:18.805] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:24:21.828] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:24:24.841] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:24:27.865] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:24:30.877] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:24:33.909] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:24:36.913] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:24:39.936] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:24:42.949] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:24:45.963] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:24:48.984] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:24:52.017] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:24:55.020] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:24:58.034] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:25:01.058] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:25:04.069] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:25:07.091] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:25:10.124] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:25:13.128] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:25:16.140] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:25:19.153] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:25:22.176] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:25:25.189] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:25:28.231] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:25:31.224] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:25:34.247] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:25:37.260] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:25:40.290] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:25:43.296] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:25:46.367] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:25:49.342] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:25:52.354] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:25:55.375] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:25:58.390] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:26:01.402] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:26:04.445] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:26:07.438] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:26:10.461] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:26:47.090] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:26:50.083] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:26:53.106] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:26:56.119] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:26:59.147] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:27:02.155] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:27:05.189] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:27:08.190] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:27:11.212] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:27:14.226] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:27:17.250] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:27:20.263] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:27:23.305] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:27:26.297] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:27:29.320] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:27:32.334] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:27:35.358] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:27:38.370] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:27:41.421] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:27:44.404] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:27:47.427] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:27:50.440] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:27:53.462] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:28:05.091] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:28:08.095] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:28:11.117] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:28:14.130] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:28:17.153] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:28:20.166] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:28:23.208] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:28:26.212] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:28:29.225] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:28:32.237] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:28:35.260] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:28:38.273] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:28:41.305] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:28:44.309] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:28:47.332] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:28:50.344] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:28:53.367] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:28:56.380] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:28:59.423] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:29:02.416] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:29:05.438] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:30:48.223] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:30:51.226] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:30:54.242] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:30:57.252] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:31:00.277] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:31:03.287] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:31:06.332] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:31:09.323] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:31:12.346] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:31:15.359] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:31:18.382] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:31:21.394] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:31:24.437] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:31:27.430] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:31:30.453] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:31:33.466] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:31:36.490] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:31:39.502] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:31:42.544] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:31:45.537] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:31:48.560] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:31:51.573] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:31:54.596] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:33:03.893] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:33:06.906] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:34:56.120] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:34:59.114] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:35:02.108] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:35:05.112] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:35:08.113] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:35:11.116] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:35:14.139] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:35:17.122] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:35:20.125] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:35:23.129] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:35:26.131] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:35:29.135] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:35:32.147] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:35:35.130] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:35:38.133] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:35:41.137] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:37:20.248] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:37:23.241] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:37:26.246] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:37:29.258] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:37:32.271] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:37:35.283] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:37:38.297] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:37:41.299] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:37:44.313] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:37:47.315] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:37:50.329] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:37:53.341] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:37:56.355] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:37:59.357] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:38:02.371] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:38:05.380] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:38:08.389] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:38:11.400] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:38:14.431] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:38:17.415] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:38:20.428] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:40:26.400] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:40:29.413] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:40:32.435] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:40:35.449] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:40:38.461] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:40:41.475] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:40:44.488] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:40:47.500] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:40:50.525] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:40:53.526] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:40:56.539] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:40:59.562] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:41:02.575] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:41:05.588] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:41:08.601] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:41:11.613] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:41:14.626] [ERROR] default - Unexpected end of JSON input
+[2021-08-06T21:41:17.639] [ERROR] default - Unexpected end of JSON input
+[2021-08-11T12:41:12.494] [INFO] default - Valor Salvo [ 1 ]
+[2021-08-11T12:41:17.457] [INFO] default - Valor Salvo [ 6 ]
+[2021-08-11T12:41:22.472] [INFO] default - Valor Salvo [ 10 ]
+[2021-08-11T12:41:27.487] [INFO] default - Valor Salvo [ 14 ]
+[2021-08-11T12:41:32.485] [INFO] default - Valor Salvo [ 20 ]
+[2021-08-11T12:41:37.493] [INFO] default - Valor Salvo [ 24 ]
+[2021-08-11T12:41:42.515] [INFO] default - Valor Salvo [ 26 ]
+[2021-08-11T12:41:47.518] [INFO] default - Valor Salvo [ 32 ]
+[2021-08-11T12:41:52.522] [INFO] default - Valor Salvo [ 36 ]
+[2021-08-11T12:45:02.515] [INFO] default - 428.8075
+[2021-08-11T12:45:07.427] [INFO] default - 611.5172
+[2021-08-11T12:45:12.451] [INFO] default - 615.3713
+[2021-08-11T12:45:17.454] [INFO] default - 610.09
+[2021-08-11T12:45:22.461] [INFO] default - 613.991
+[2021-08-11T12:45:27.471] [INFO] default - 616.7520000000001
+[2021-08-11T12:45:32.501] [INFO] default - 614.0866
+[2021-08-11T12:45:37.518] [INFO] default - 615.4671000000001
+[2021-08-11T12:45:42.533] [INFO] default - 615.4671000000001
+[2021-08-11T12:45:47.550] [INFO] default - 614.0866
+[2021-08-11T12:45:52.523] [INFO] default - 616.848
+[2021-08-11T12:45:57.578] [INFO] default - 615.4671000000001
+[2021-08-11T12:46:02.581] [INFO] default - 615.4671000000001
+[2021-08-11T12:46:07.592] [INFO] default - 573.7088000000001
+[2021-08-11T12:46:12.581] [INFO] default - 614.23
+[2021-08-11T12:46:17.596] [INFO] default - 615.4671000000001
+[2021-08-11T12:46:23.052] [INFO] default - 616.7520000000001
+[2021-08-11T12:46:27.654] [INFO] default - 616.656
+[2021-08-11T12:46:32.637] [INFO] default - 616.8
+[2021-08-11T12:46:37.639] [INFO] default - 614.0866
+[2021-08-11T12:46:42.653] [INFO] default - 616.7520000000001
+[2021-08-11T12:46:47.655] [INFO] default - 615.4671000000001
+[2021-08-11T12:46:52.672] [INFO] default - 616.7520000000001
+[2021-08-11T12:46:57.708] [INFO] default - 616.848
+[2021-08-11T12:47:02.688] [INFO] default - 616.848
+[2021-08-11T12:47:07.748] [INFO] default - 616.848
+[2021-08-11T12:47:12.747] [INFO] default - 569.244
+[2021-08-11T12:47:17.723] [INFO] default - 615.2755
+[2021-08-11T12:47:22.743] [INFO] default - 616.848
+[2021-08-11T12:47:27.765] [INFO] default - 616.848
+[2021-08-11T12:47:32.772] [INFO] default - 616.7520000000001
+[2021-08-11T12:47:37.772] [INFO] default - 616.656
+[2021-08-11T12:47:42.792] [INFO] default - 616.7520000000001
+[2021-08-11T12:47:47.833] [INFO] default - 616.7520000000001
+[2021-08-11T12:47:52.810] [INFO] default - 616.704
+[2021-08-11T12:47:57.819] [INFO] default - 618.1330999999999
+[2021-08-11T12:48:02.843] [INFO] default - 616.8960000000001
+[2021-08-11T12:48:07.851] [INFO] default - 616.848
+[2021-08-11T12:48:12.893] [INFO] default - 616.7520000000001
+[2021-08-11T12:48:17.900] [INFO] default - 538.05
+[2021-08-11T12:48:22.893] [INFO] default - 616.7520000000001
+[2021-08-11T12:48:27.908] [INFO] default - 618.0849999999999
+[2021-08-11T12:48:32.918] [INFO] default - 616.8
+[2021-08-11T12:48:37.930] [INFO] default - 618.0849999999999
+[2021-08-11T12:48:42.954] [INFO] default - 616.8
+[2021-08-11T12:48:47.961] [INFO] default - 618.1812
+[2021-08-11T12:48:52.983] [INFO] default - 616.7520000000001
+[2021-08-11T12:48:57.993] [INFO] default - 616.8
+[2021-08-11T12:49:02.995] [INFO] default - 616.704
+[2021-08-11T12:49:08.000] [INFO] default - 616.848
+[2021-08-11T12:49:12.999] [INFO] default - 618.0849999999999
+[2021-08-11T12:49:18.035] [INFO] default - 619.4182
+[2021-08-11T12:49:23.064] [INFO] default - 580.3836
+[2021-08-11T12:49:28.044] [INFO] default - 616.8
+[2021-08-11T12:49:33.058] [INFO] default - 618.0849999999999
+[2021-08-11T12:49:38.087] [INFO] default - 616.8
+[2021-08-11T12:49:43.063] [INFO] default - 616.7520000000001
+[2021-08-11T12:49:48.093] [INFO] default - 619.37
+[2021-08-11T12:49:53.100] [INFO] default - 619.2254
+[2021-08-11T12:49:58.103] [INFO] default - 619.4182
+[2021-08-11T12:50:03.136] [INFO] default - 620.655
+[2021-08-11T12:50:08.129] [INFO] default - 616.848
+[2021-08-11T12:50:13.150] [INFO] default - 616.704
+[2021-08-11T12:50:18.150] [INFO] default - 619.2736
+[2021-08-11T12:50:23.172] [INFO] default - 619.37
+[2021-08-11T12:50:28.192] [INFO] default - 554.435
+[2021-08-11T12:50:33.201] [INFO] default - 616.7520000000001
+[2021-08-11T12:50:38.193] [INFO] default - 619.3218
+[2021-08-11T12:50:43.232] [INFO] default - 618.1812
+[2021-08-11T12:50:48.246] [INFO] default - 618.1330999999999
+[2021-08-11T12:50:53.241] [INFO] default - 620.655
+[2021-08-11T12:50:58.260] [INFO] default - 619.4182
+[2021-08-11T12:51:03.269] [INFO] default - 618.0369
+[2021-08-11T12:51:08.275] [INFO] default - 618.0369
+[2021-08-11T12:51:13.278] [INFO] default - 616.7520000000001
+[2021-08-11T12:51:18.290] [INFO] default - 616.656
+[2021-08-11T12:51:23.301] [INFO] default - 618.1330999999999
+[2021-08-11T12:51:28.314] [INFO] default - 618.1330999999999
+[2021-08-11T12:51:33.362] [INFO] default - 558.5297
+[2021-08-11T12:51:38.346] [INFO] default - 616.656
+[2021-08-11T12:51:43.359] [INFO] default - 618.1812
+[2021-08-11T12:51:48.376] [INFO] default - 619.4182
+[2021-08-11T12:51:53.381] [INFO] default - 616.8
+[2021-08-11T12:51:58.394] [INFO] default - 619.4664000000001
+[2021-08-11T12:52:03.421] [INFO] default - 619.37
+[2021-08-11T12:52:08.405] [INFO] default - 616.704
+[2021-08-11T12:52:13.430] [INFO] default - 616.848
+[2021-08-11T12:52:18.430] [INFO] default - 618.1812
+[2021-08-11T12:52:23.478] [INFO] default - 619.37
+[2021-08-11T12:52:28.481] [INFO] default - 618.1330999999999
+[2021-08-11T12:52:33.486] [INFO] default - 618.0369
+[2021-08-11T12:52:38.501] [INFO] default - 616.56
+[2021-08-11T12:52:43.513] [INFO] default - 618.0369
+[2021-08-11T12:52:48.510] [INFO] default - 618.0849999999999
+[2021-08-11T12:52:53.542] [INFO] default - 618.0849999999999
+[2021-08-11T12:52:58.536] [INFO] default - 616.7520000000001
+[2021-08-11T12:53:03.565] [INFO] default - 619.4182
+[2021-08-11T12:53:08.554] [INFO] default - 618.0369
+[2021-08-11T12:53:13.587] [INFO] default - 618.1330999999999
+[2021-08-11T12:53:18.600] [INFO] default - 618.1330999999999
+[2021-08-11T12:53:23.612] [INFO] default - 619.7373
+[2021-08-11T12:53:28.625] [INFO] default - 618.1330999999999
+[2021-08-11T12:53:33.615] [INFO] default - 617.9887999999999
+[2021-08-11T12:53:38.630] [INFO] default - 616.8
+[2021-08-11T12:53:43.727] [INFO] default - 550.3008
+[2021-08-11T12:53:48.647] [INFO] default - 619.4182
+[2021-08-11T12:53:53.681] [INFO] default - 618.1330999999999
+[2021-08-11T12:53:58.673] [INFO] default - 617.9407
+[2021-08-11T12:54:03.686] [INFO] default - 618.0369
+[2021-08-11T12:54:08.696] [INFO] default - 618.0849999999999
+[2021-08-11T12:54:13.713] [INFO] default - 616.656
+[2021-08-11T12:54:18.727] [INFO] default - 620.655
+[2021-08-11T12:54:23.735] [INFO] default - 619.4182
+[2021-08-11T12:54:28.742] [INFO] default - 617.9887999999999
+[2021-08-11T12:54:33.760] [INFO] default - 619.37
+[2021-08-11T12:54:38.764] [INFO] default - 618.1330999999999
+[2021-08-11T12:54:43.775] [INFO] default - 619.3218
+[2021-08-11T12:54:48.814] [INFO] default - 584.2271999999999
+[2021-08-11T12:54:53.809] [INFO] default - 618.0369
+[2021-08-11T12:54:58.825] [INFO] default - 618.0849999999999
+[2021-08-11T12:55:03.829] [INFO] default - 619.37
+[2021-08-11T12:55:08.837] [INFO] default - 619.2254
+[2021-08-11T12:55:13.853] [INFO] default - 619.4182
+[2021-08-11T12:55:18.862] [INFO] default - 618.1812
+[2021-08-11T12:55:23.872] [INFO] default - 616.7520000000001
+[2021-08-11T12:55:28.891] [INFO] default - 618.0849999999999
+[2021-08-11T12:55:33.899] [INFO] default - 619.37
+[2021-08-11T12:55:38.907] [INFO] default - 616.7520000000001
+[2021-08-11T12:55:43.924] [INFO] default - 620.5584
+[2021-08-11T12:55:48.927] [INFO] default - 616.7520000000001
+[2021-08-11T12:55:53.965] [INFO] default - 580.0665000000001
+[2021-08-11T12:55:58.965] [INFO] default - 619.3218
+[2021-08-11T12:56:03.967] [INFO] default - 618.0369
+[2021-08-11T12:56:09.000] [INFO] default - 618.1330999999999
+[2021-08-11T12:56:14.000] [INFO] default - 618.0849999999999
+[2021-08-11T12:56:18.997] [INFO] default - 618.0369
+[2021-08-11T12:56:24.025] [INFO] default - 617.9407
+[2021-08-11T12:56:29.032] [INFO] default - 618.1330999999999
+[2021-08-11T12:56:34.055] [INFO] default - 619.3218
+[2021-08-11T12:56:39.058] [INFO] default - 619.3218
+[2021-08-11T12:56:44.072] [INFO] default - 620.7033
+[2021-08-11T12:56:49.074] [INFO] default - 618.0369
+[2021-08-11T12:56:54.096] [INFO] default - 619.3218
+[2021-08-11T12:56:59.121] [INFO] default - 574.6302000000001
+[2021-08-11T12:57:04.114] [INFO] default - 618.1330999999999
+[2021-08-11T12:57:09.139] [INFO] default - 616.512
+[2021-08-11T12:57:14.141] [INFO] default - 619.4664000000001
+[2021-08-11T12:57:19.147] [INFO] default - 620.655
+[2021-08-11T12:57:24.169] [INFO] default - 620.7033
+[2021-08-11T12:57:29.176] [INFO] default - 618.0369
+[2021-08-11T12:57:34.187] [INFO] default - 619.37
+[2021-08-11T12:57:39.198] [INFO] default - 620.6067
+[2021-08-11T12:57:44.226] [INFO] default - 620.655
+[2021-08-11T12:57:49.223] [INFO] default - 619.2736
+[2021-08-11T12:57:54.245] [INFO] default - 616.512
+[2021-08-11T12:57:59.249] [INFO] default - 619.4182
+[2021-08-11T12:58:04.282] [INFO] default - 540.6
+[2021-08-11T12:58:09.270] [INFO] default - 617.8926
+[2021-08-11T12:58:14.300] [INFO] default - 619.2736
+[2021-08-11T12:58:19.288] [INFO] default - 618.0369
+[2021-08-11T12:58:24.306] [INFO] default - 618.0369
+[2021-08-11T12:58:29.314] [INFO] default - 620.655
+[2021-08-11T12:58:34.330] [INFO] default - 620.7033
+[2021-08-11T12:58:39.354] [INFO] default - 619.37
+[2021-08-11T12:58:44.359] [INFO] default - 618.1330999999999
+[2021-08-11T12:58:49.361] [INFO] default - 620.7033
+[2021-08-11T12:58:54.370] [INFO] default - 619.3218
+[2021-08-11T12:58:59.389] [INFO] default - 617.8926
+[2021-08-11T12:59:04.410] [INFO] default - 617.9887999999999
+[2021-08-11T12:59:09.421] [INFO] default - 528.71
+[2021-08-11T12:59:14.446] [INFO] default - 620.7516
+[2021-08-11T12:59:19.434] [INFO] default - 619.37
+[2021-08-11T12:59:24.448] [INFO] default - 620.7033
+[2021-08-11T12:59:29.452] [INFO] default - 619.37
+[2021-08-11T12:59:34.467] [INFO] default - 619.3218
+[2021-08-11T12:59:39.492] [INFO] default - 620.655
+[2021-08-11T12:59:44.493] [INFO] default - 618.0849999999999
+[2021-08-11T12:59:49.523] [INFO] default - 620.6067
+[2021-08-11T12:59:54.511] [INFO] default - 618.0369
+[2021-08-11T12:59:59.539] [INFO] default - 619.1772000000001
+[2021-08-11T13:00:04.561] [INFO] default - 618.0849999999999
+[2021-08-11T13:00:09.569] [INFO] default - 618.0369
+[2021-08-11T13:00:14.583] [INFO] default - 584.2728
+[2021-08-11T13:00:19.587] [INFO] default - 616.656
+[2021-08-11T13:00:24.589] [INFO] default - 620.655
+[2021-08-11T13:00:29.628] [INFO] default - 618.0369
+[2021-08-11T13:00:34.609] [INFO] default - 618.0849999999999
+[2021-08-11T13:00:39.751] [INFO] default - 618.0369
+[2021-08-11T13:00:44.638] [INFO] default - 619.3218
+[2021-08-11T13:00:49.644] [INFO] default - 634.0473000000001
+[2021-08-11T13:00:54.657] [INFO] default - 616.848
+[2021-08-11T13:00:59.675] [INFO] default - 618.0369
+[2021-08-11T13:01:04.684] [INFO] default - 619.3218
+[2021-08-11T13:01:09.687] [INFO] default - 618.0849999999999
+[2021-08-11T13:01:14.697] [INFO] default - 618.0369
+[2021-08-11T13:01:19.734] [INFO] default - 569.333
+[2021-08-11T13:01:24.723] [INFO] default - 620.655
+[2021-08-11T13:01:29.736] [INFO] default - 618.1330999999999
+[2021-08-11T13:01:34.761] [INFO] default - 618.0369
+[2021-08-11T13:01:39.758] [INFO] default - 619.37
+[2021-08-11T13:01:44.770] [INFO] default - 616.656
+[2021-08-11T13:01:49.786] [INFO] default - 616.656
+[2021-08-11T13:01:54.798] [INFO] default - 616.6080000000001
+[2021-08-11T13:01:59.803] [INFO] default - 616.848
+[2021-08-11T13:02:04.893] [INFO] default - 618.0369
+[2021-08-11T13:02:09.831] [INFO] default - 619.37
+[2021-08-11T13:02:14.848] [INFO] default - 617.9407
+[2021-08-11T13:02:19.854] [INFO] default - 619.4182
+[2021-08-11T13:02:24.888] [INFO] default - 616.512
+[2021-08-11T13:02:29.887] [INFO] default - 620.6067
+[2021-08-11T13:02:34.899] [INFO] default - 618.0369
+[2021-08-11T13:02:39.908] [INFO] default - 620.5584
+[2021-08-11T13:02:44.924] [INFO] default - 620.655
+[2021-08-11T13:02:49.977] [INFO] default - 620.655
+[2021-08-11T13:02:54.944] [INFO] default - 617.9407
+[2021-08-11T13:02:59.958] [INFO] default - 619.4664000000001
+[2021-08-11T13:03:04.969] [INFO] default - 619.4182
+[2021-08-11T13:03:09.982] [INFO] default - 619.37
+[2021-08-11T13:05:05.285] [INFO] default - 618.0369
+[2021-08-11T13:05:10.270] [INFO] default - 619.4182
+[2021-08-11T13:05:15.295] [INFO] default - 620.5101
+[2021-08-11T13:05:20.299] [INFO] default - 616.6080000000001
+[2021-08-11T13:05:25.312] [INFO] default - 617.9407
+[2021-08-11T13:05:30.327] [INFO] default - 618.0369
+[2021-08-11T13:05:35.326] [INFO] default - 620.6067
+[2021-08-11T13:05:40.348] [INFO] default - 620.5101
+[2021-08-11T13:05:45.363] [INFO] default - 616.7520000000001
+[2021-08-11T13:05:50.367] [INFO] default - 619.1772000000001
+[2021-08-11T13:05:55.373] [INFO] default - 617.9407
+[2021-08-11T13:06:00.399] [INFO] default - 619.37
+[2021-08-11T13:06:05.407] [INFO] default - 619.3218
+[2021-08-11T13:06:10.431] [INFO] default - 619.2736
+[2021-08-11T13:06:15.432] [INFO] default - 619.4182
+[2021-08-11T13:06:20.453] [INFO] default - 620.6067
+[2021-08-11T13:06:25.456] [INFO] default - 618.1330999999999
+[2021-08-11T13:06:30.477] [INFO] default - 620.5584
+[2021-08-11T13:06:35.478] [INFO] default - 619.2736
+[2021-08-11T13:06:40.494] [INFO] default - 620.5584
+[2021-08-11T13:06:45.517] [INFO] default - 618.0849999999999
+[2021-08-11T13:06:50.532] [INFO] default - 619.37
+[2021-08-11T13:06:55.538] [INFO] default - 618.0369
+[2021-08-11T13:07:00.548] [INFO] default - 618.0369
+[2021-08-11T13:07:05.552] [INFO] default - 619.4182
+[2021-08-11T13:07:10.582] [INFO] default - 617.9887999999999
+[2021-08-11T13:07:15.596] [INFO] default - 620.7033
+[2021-08-11T13:07:20.597] [INFO] default - 617.9887999999999
+[2021-08-11T13:07:25.609] [INFO] default - 619.37
+[2021-08-11T13:07:30.624] [INFO] default - 620.7033
+[2021-08-11T13:07:35.625] [INFO] default - 616.848
+[2021-08-11T13:07:40.645] [INFO] default - 620.7033
+[2021-08-11T13:07:45.635] [INFO] default - 619.37
+[2021-08-11T13:07:50.678] [INFO] default - 619.3218
+[2021-08-11T13:07:55.659] [INFO] default - 618.0369
+[2021-08-11T13:08:00.693] [INFO] default - 616.848
+[2021-08-11T13:08:05.687] [INFO] default - 1234.6560000000002
+[2021-08-11T13:08:10.696] [INFO] default - Dados faltantes!
+[2021-08-11T13:08:15.706] [INFO] default - Dados faltantes!
+[2021-08-11T13:08:20.714] [INFO] default - Dados faltantes!
+[2021-08-11T13:08:25.729] [INFO] default - Dados faltantes!
+[2021-08-11T13:08:30.751] [INFO] default - Dados faltantes!
+[2021-08-11T13:08:35.761] [INFO] default - Dados faltantes!
+[2021-08-11T13:08:40.775] [INFO] default - Dados faltantes!
+[2021-08-11T13:08:45.785] [INFO] default - Dados faltantes!
+[2021-08-11T13:08:50.863] [INFO] default - Dados faltantes!
+[2021-08-11T13:08:55.810] [INFO] default - Dados faltantes!
+[2021-08-11T13:09:00.825] [INFO] default - Dados faltantes!
+[2021-08-11T13:09:05.835] [INFO] default - Dados faltantes!
+[2021-08-11T13:09:10.877] [INFO] default - Dados faltantes!
+[2021-08-11T13:09:15.855] [INFO] default - Dados faltantes!
+[2021-08-11T13:09:20.895] [INFO] default - 558.2975999999999
+[2021-08-11T13:09:25.902] [INFO] default - 1929.9625
+[2021-08-11T13:09:30.917] [INFO] default - 2022.6625000000001
+[2021-08-11T13:09:35.907] [INFO] default - 2010.4502
+[2021-08-11T13:09:40.947] [INFO] default - 2021.375
+[2021-08-11T13:09:46.085] [INFO] default - 2021.5319999999997
+[2021-08-11T13:09:50.962] [INFO] default - 2010.6064
+[2021-08-11T13:09:55.964] [INFO] default - 2020.5582
+[2021-08-11T13:10:00.974] [INFO] default - Dados faltantes!
+[2021-08-11T13:10:05.979] [INFO] default - Dados faltantes!
+[2021-08-11T13:10:10.995] [INFO] default - Dados faltantes!
+[2021-08-11T13:10:16.009] [INFO] default - Dados faltantes!
+[2021-08-11T13:10:21.017] [INFO] default - Dados faltantes!
+[2021-08-11T13:10:26.032] [INFO] default - Dados faltantes!
+[2021-08-11T13:10:31.044] [INFO] default - Dados faltantes!
+[2021-08-11T13:10:36.050] [INFO] default - Dados faltantes!
+[2021-08-11T13:10:41.288] [INFO] default - Dados faltantes!
+[2021-08-11T13:10:46.073] [INFO] default - Dados faltantes!
+[2021-08-11T13:10:51.095] [INFO] default - Dados faltantes!
+[2021-08-11T13:10:57.566] [INFO] default - Dados faltantes!
+[2021-08-11T13:11:01.121] [INFO] default - Dados faltantes!
+[2021-08-11T13:11:06.131] [INFO] default - Dados faltantes!
+[2021-08-11T13:11:11.144] [INFO] default - Dados faltantes!
+[2021-08-11T13:11:16.153] [INFO] default - Dados faltantes!
+[2021-08-11T13:11:21.181] [INFO] default - Dados faltantes!
+[2021-08-11T13:11:26.181] [INFO] default - Dados faltantes!
+[2021-08-11T13:11:31.191] [INFO] default - Dados faltantes!
+[2021-08-11T13:11:36.203] [INFO] default - Dados faltantes!
+[2021-08-11T13:11:41.214] [INFO] default - Dados faltantes!
+[2021-08-11T13:11:46.236] [INFO] default - Dados faltantes!
+[2021-08-11T13:11:51.237] [INFO] default - Dados faltantes!
+[2021-08-11T13:11:56.258] [INFO] default - Dados faltantes!
+[2021-08-11T13:12:01.279] [INFO] default - Dados faltantes!
+[2021-08-11T13:12:06.288] [INFO] default - Dados faltantes!
+[2021-08-11T13:12:11.294] [INFO] default - Dados faltantes!
+[2021-08-11T13:12:16.305] [INFO] default - Dados faltantes!
+[2021-08-11T13:12:21.317] [INFO] default - Dados faltantes!
+[2021-08-11T13:12:26.329] [INFO] default - Dados faltantes!
+[2021-08-11T13:12:31.340] [INFO] default - Dados faltantes!
+[2021-08-11T13:12:36.350] [INFO] default - Dados faltantes!
+[2021-08-11T13:12:41.364] [INFO] default - Dados faltantes!
+[2021-08-11T13:12:46.372] [INFO] default - Dados faltantes!
+[2021-08-11T13:12:51.388] [INFO] default - Dados faltantes!
+[2021-08-11T13:12:56.397] [INFO] default - Dados faltantes!
+[2021-08-11T13:13:01.421] [INFO] default - Dados faltantes!
+[2021-08-11T13:13:06.437] [INFO] default - 1218.7665
+[2021-08-11T13:13:11.455] [INFO] default - 1919.2223999999999
+[2021-08-11T13:13:16.462] [INFO] default - 1932.8106
+[2021-08-11T13:13:21.473] [INFO] default - 1933.4101999999998
+[2021-08-11T13:13:26.497] [INFO] default - 1946.3081999999997
+[2021-08-11T13:13:31.495] [INFO] default - 1943.7286
+[2021-08-11T13:13:36.508] [INFO] default - 1950.3288
+[2021-08-11T13:13:41.518] [INFO] default - 1950.0264
+[2021-08-11T13:13:46.530] [INFO] default - 341.903
+[2021-08-11T13:13:51.555] [INFO] default - 340.58639999999997
+[2021-08-11T13:13:56.562] [INFO] default - 343.2464
+[2021-08-11T13:14:01.582] [INFO] default - 343.2464
+[2021-08-11T13:14:06.586] [INFO] default - 28.435
+[2021-08-11T13:14:11.598] [INFO] default - 32.325
+[2021-08-11T13:14:16.608] [INFO] default - 29.739000000000004
+[2021-08-11T13:14:21.618] [INFO] default - 31.0272
+[2021-08-11T13:14:26.650] [INFO] default - 34.91100000000001
+[2021-08-11T13:14:31.645] [INFO] default - 34.91100000000001
+[2021-08-11T13:14:36.678] [INFO] default - 36.20400000000001
+[2021-08-11T13:14:41.668] [INFO] default - 34.91100000000001
+[2021-08-11T13:14:46.696] [INFO] default - 33.625800000000005
+[2021-08-11T13:14:51.691] [INFO] default - 36.20400000000001
+[2021-08-11T13:14:56.724] [INFO] default - 34.9164
+[2021-08-11T13:15:01.714] [INFO] default - 33.6128
+[2021-08-11T13:15:06.735] [INFO] default - 33.618
+[2021-08-11T13:15:11.748] [INFO] default - 1938.0571
+[2021-08-11T13:15:16.759] [INFO] default - 1930.2996999999998
+[2021-08-11T13:15:21.771] [INFO] default - 1922.3935999999999
+[2021-08-11T13:15:26.782] [INFO] default - 1919.9564999999998
+[2021-08-11T13:15:31.795] [INFO] default - 1923.8352
+[2021-08-11T13:15:36.807] [INFO] default - 1924.1328
+[2021-08-11T13:15:42.072] [INFO] default - 1923.9840000000004
+[2021-08-11T13:15:46.824] [INFO] default - Dados faltantes!
+[2021-08-11T13:15:51.836] [INFO] default - Dados faltantes!
+[2021-08-11T13:15:56.849] [INFO] default - Dados faltantes!
+[2021-08-11T13:16:01.869] [INFO] default - Dados faltantes!
+[2021-08-11T13:16:06.880] [INFO] default - Dados faltantes!
+[2021-08-11T13:16:11.893] [INFO] default - Dados faltantes!
+[2021-08-11T13:16:16.914] [INFO] default - Dados faltantes!
+[2021-08-11T13:16:21.917] [INFO] default - Dados faltantes!
+[2021-08-11T13:16:26.928] [INFO] default - Dados faltantes!
+[2021-08-11T13:16:31.940] [INFO] default - Dados faltantes!
+[2021-08-11T13:16:36.957] [INFO] default - Dados faltantes!
+[2021-08-11T13:16:41.964] [INFO] default - Dados faltantes!
+[2021-08-11T13:16:46.982] [INFO] default - Dados faltantes!
+[2021-08-11T13:16:51.990] [INFO] default - Dados faltantes!
+[2021-08-11T13:16:56.998] [INFO] default - Dados faltantes!
+[2021-08-11T13:17:02.031] [INFO] default - Dados faltantes!
+[2021-08-11T13:17:07.021] [INFO] default - Dados faltantes!
+[2021-08-11T13:17:12.039] [INFO] default - Dados faltantes!
+[2021-08-11T13:17:17.076] [INFO] default - Dados faltantes!
+[2021-08-11T13:17:22.063] [INFO] default - Dados faltantes!
+[2021-08-11T13:17:27.078] [INFO] default - Dados faltantes!
+[2021-08-11T13:17:32.128] [INFO] default - Dados faltantes!
+[2021-08-11T13:17:37.098] [INFO] default - Dados faltantes!
+[2021-08-11T13:17:42.116] [INFO] default - Dados faltantes!
+[2021-08-11T13:17:47.125] [INFO] default - Dados faltantes!
+[2021-08-11T13:17:52.136] [INFO] default - Dados faltantes!
+[2021-08-11T13:17:57.163] [INFO] default - 749.0833
+[2021-08-11T13:18:02.175] [INFO] default - 785.3664
+[2021-08-11T13:18:07.175] [INFO] default - 795.8065999999999
+[2021-08-11T13:18:12.191] [INFO] default - 803.6077000000001
+[2021-08-11T13:18:17.198] [INFO] default - 594.2607
+[2021-08-11T13:18:22.224] [INFO] default - 816.4434
+[2021-08-11T13:18:27.222] [INFO] default - 811.2213
+[2021-08-11T13:18:32.248] [INFO] default - 817.6698
+[2021-08-11T13:18:37.256] [INFO] default - 822.8924
+[2021-08-11T13:18:42.272] [INFO] default - 831.9855000000001
+[2021-08-11T13:18:47.283] [INFO] default - 837.1451000000001
+[2021-08-11T13:18:52.304] [INFO] default - 819.0229999999999
+[2021-08-11T13:18:57.303] [INFO] default - 807.4147999999999
+[2021-08-11T13:19:02.319] [INFO] default - 793.227
+[2021-08-11T13:19:07.320] [INFO] default - 788.0678
+[2021-08-11T13:19:12.338] [INFO] default - 786.717
+[2021-08-11T13:19:17.346] [INFO] default - 785.4273
+[2021-08-11T13:19:23.631] [INFO] default - 466.8714
+[2021-08-11T13:19:27.380] [INFO] default - 45.1395
+[2021-08-11T13:19:32.391] [INFO] default - 45.142999999999994
+[2021-08-11T13:19:37.390] [INFO] default - 39.9807
+[2021-08-11T13:19:42.417] [INFO] default - 39.983799999999995
+[2021-08-11T13:19:47.437] [INFO] default - 43.8532
+[2021-08-11T13:19:52.448] [INFO] default - 39.971399999999996
+[2021-08-11T13:19:57.453] [INFO] default - 2430.3905999999997
+[2021-08-11T13:20:02.473] [INFO] default - 2430.3905999999997
+[2021-08-11T13:20:07.484] [INFO] default - 2430.5779999999995
+[2021-08-11T13:20:12.495] [INFO] default - 2430.3905999999997
+[2021-08-11T13:20:17.509] [INFO] default - 2451.1409999999996
+[2021-08-11T13:20:22.529] [INFO] default - 2452.627
+[2021-08-11T13:20:27.554] [INFO] default - 32.11
+[2021-08-11T13:20:32.532] [INFO] default - 32.1125
+[2021-08-11T13:20:37.545] [INFO] default - 32.1075
+[2021-08-11T13:20:42.566] [INFO] default - 33.397
+[2021-08-11T13:20:47.579] [INFO] default - 35.966
+[2021-08-11T13:20:52.602] [INFO] default - 34.6734
+[2021-08-11T13:20:57.602] [INFO] default - 34.6788
+[2021-08-11T13:21:02.627] [INFO] default - 33.397
+[2021-08-11T13:21:07.625] [INFO] default - 34.676100000000005
+[2021-08-11T13:21:12.648] [INFO] default - 38.52
+[2021-08-11T13:21:17.648] [INFO] default - 39.813300000000005
+[2021-08-11T13:21:22.671] [INFO] default - 37.2476
+[2021-08-11T13:21:27.671] [INFO] default - 38.522999999999996
+[2021-08-11T13:21:32.680] [INFO] default - Dados faltantes!
+[2021-08-11T13:21:37.699] [INFO] default - 2663.8455999999996
+[2021-08-11T13:21:42.726] [INFO] default - 3852.5154
+[2021-08-11T13:21:47.719] [INFO] default - 3852.2154999999993
+[2021-08-11T13:21:52.757] [INFO] default - 3851.9156
+[2021-08-11T13:21:57.755] [INFO] default - 3852.5154
+[2021-08-11T13:22:02.795] [INFO] default - 3851.9156
+[2021-08-11T13:22:07.777] [INFO] default - 3852.2154999999993
+[2021-08-11T13:22:12.800] [INFO] default - 3852.2154999999993
+[2021-08-11T13:22:18.052] [INFO] default - 3852.5154
+[2021-08-11T13:22:22.825] [INFO] default - 3852.5154
+[2021-08-11T13:22:27.829] [INFO] default - 3851.9156
+[2021-08-11T13:22:33.113] [INFO] default - 3851.3157999999994
+[2021-08-11T13:22:37.869] [INFO] default - 3852.5154
+[2021-08-11T13:22:42.881] [INFO] default - 3851.9156
+[2021-08-11T13:22:47.893] [INFO] default - 3852.5154
+[2021-08-11T13:22:52.905] [INFO] default - 3852.2154999999993
+[2021-08-11T13:22:57.899] [INFO] default - 3852.2154999999993
+[2021-08-11T13:23:02.933] [INFO] default - 3851.6157
+[2021-08-11T13:23:07.925] [INFO] default - 3852.2154999999993
+[2021-08-11T13:23:12.948] [INFO] default - 3852.5154
+[2021-08-11T13:23:17.949] [INFO] default - 3851.3157999999994
+[2021-08-11T13:23:23.000] [INFO] default - 3851.9156
+[2021-08-11T13:23:27.982] [INFO] default - 3852.2154999999993
+[2021-08-11T13:23:33.012] [INFO] default - 3851.9156
+[2021-08-11T13:23:38.005] [INFO] default - 3851.9156
+[2021-08-11T13:23:43.033] [INFO] default - 3851.6157
+[2021-08-11T13:23:48.066] [INFO] default - 3851.6157
+[2021-08-11T13:23:53.059] [INFO] default - 3852.5154
+[2021-08-11T13:23:58.074] [INFO] default - 3851.9156
+[2021-08-11T13:24:03.095] [INFO] default - 3852.2154999999993
+[2021-08-11T13:24:08.105] [INFO] default - 3851.9156
+[2021-08-11T13:24:13.127] [INFO] default - 3852.8152999999998
+[2021-08-11T13:24:18.127] [INFO] default - 3851.9156
+[2021-08-11T13:24:23.140] [INFO] default - 3851.6157
+[2021-08-11T13:24:28.151] [INFO] default - 3851.9156
+[2021-08-11T13:24:33.153] [INFO] default - 3852.2154999999993
+[2021-08-11T13:24:38.157] [INFO] default - 3851.9156
+[2021-08-11T13:24:43.187] [INFO] default - 3852.2154999999993
+[2021-08-11T13:24:48.182] [INFO] default - 3851.9156
+[2021-08-11T13:24:53.232] [INFO] default - 3852.2154999999993
+[2021-08-11T13:24:58.356] [INFO] default - 3851.6157
+[2021-08-11T13:25:03.223] [INFO] default - 3851.9156
+[2021-08-11T13:25:08.234] [INFO] default - 3851.6157
+[2021-08-11T13:25:13.247] [INFO] default - 3851.9156
+[2021-08-11T13:25:18.258] [INFO] default - 3851.3157999999994
+[2021-08-11T13:25:23.269] [INFO] default - 3852.2154999999993
+[2021-08-11T13:25:28.281] [INFO] default - 3852.5154
+[2021-08-11T13:25:33.298] [INFO] default - 3851.9156
+[2021-08-11T13:25:38.315] [INFO] default - 3852.2154999999993
+[2021-08-11T13:25:43.328] [INFO] default - 3851.9156
+[2021-08-11T13:25:48.342] [INFO] default - 3852.2154999999993
+[2021-08-11T13:25:53.356] [INFO] default - 3851.9156
+[2021-08-11T13:25:58.363] [INFO] default - 3852.8152999999998
+[2021-08-11T13:26:03.376] [INFO] default - 3851.6157
+[2021-08-11T13:26:08.389] [INFO] default - 3851.9156
+[2021-08-11T13:26:13.403] [INFO] default - 3850.716
+[2021-08-11T13:26:18.407] [INFO] default - 3851.9156
+[2021-08-11T13:26:23.433] [INFO] default - 3851.9156
+[2021-08-11T13:26:28.444] [INFO] default - 3852.2154999999993
+[2021-08-11T13:26:33.460] [INFO] default - 3851.6157
+[2021-08-11T13:26:38.463] [INFO] default - 3852.2154999999993
+[2021-08-11T13:26:43.484] [INFO] default - 3851.9156
+[2021-08-11T13:26:48.486] [INFO] default - 3852.2154999999993
+[2021-08-11T13:26:53.506] [INFO] default - 3848.6167
+[2021-08-11T13:26:58.518] [INFO] default - 3850.716
+[2021-08-11T13:27:03.550] [INFO] default - 3852.2154999999993
+[2021-08-11T13:27:08.543] [INFO] default - 3851.9156
+[2021-08-11T13:27:13.566] [INFO] default - 3852.2154999999993
+[2021-08-11T13:27:18.597] [INFO] default - 3852.2154999999993
+[2021-08-11T13:27:23.589] [INFO] default - 3852.2154999999993
+[2021-08-11T13:27:28.588] [INFO] default - Dados faltantes!
+[2021-08-11T13:27:35.618] [INFO] default - Dados faltantes!
+[2021-08-11T13:27:38.611] [INFO] default - Dados faltantes!
+[2021-08-11T13:27:43.620] [INFO] default - Dados faltantes!
+[2021-08-11T13:27:50.103] [INFO] default - Dados faltantes!
+[2021-08-11T13:27:53.655] [INFO] default - Dados faltantes!
+[2021-08-11T13:27:58.657] [INFO] default - Dados faltantes!
+[2021-08-11T13:28:03.682] [INFO] default - Dados faltantes!
+[2021-10-13T23:27:25.771] [INFO] default - 1760
+[2021-10-13T23:27:25.820] [INFO] default - 635
+[2021-10-13T23:27:30.767] [INFO] default - 1760
+[2021-10-13T23:27:30.778] [INFO] default - 635
+[2021-10-13T23:29:41.699] [INFO] default - 1760
+[2021-10-13T23:29:41.728] [INFO] default - 635
+[2021-10-13T23:29:46.462] [INFO] default - 1760
+[2021-10-13T23:29:46.481] [INFO] default - 635
+[2021-10-13T23:29:51.487] [INFO] default - 1760
+[2021-10-13T23:29:51.491] [INFO] default - 635
+[2021-10-13T23:29:56.484] [INFO] default - 1760
+[2021-10-13T23:29:56.487] [INFO] default - 635
+[2021-10-13T23:30:01.479] [INFO] default - 1760
+[2021-10-13T23:30:01.483] [INFO] default - 635
+[2021-10-13T23:30:06.481] [INFO] default - 1760
+[2021-10-13T23:30:06.484] [INFO] default - 635
+[2021-10-13T23:30:11.469] [INFO] default - 1760
+[2021-10-13T23:30:11.487] [INFO] default - 635
+[2021-10-13T23:30:16.488] [INFO] default - 1760
+[2021-10-13T23:30:16.519] [INFO] default - 635
+[2021-10-13T23:30:21.470] [INFO] default - 1760
+[2021-10-13T23:30:21.485] [INFO] default - 635
+[2021-10-13T23:30:26.478] [INFO] default - 1760
+[2021-10-13T23:30:26.494] [INFO] default - 635
+[2021-10-13T23:30:31.482] [INFO] default - 1760
+[2021-10-13T23:30:31.488] [INFO] default - 635
+[2021-10-13T23:30:36.503] [INFO] default - 1760
+[2021-10-13T23:30:36.504] [INFO] default - 635
+[2021-10-13T23:30:41.510] [INFO] default - 1760
+[2021-10-13T23:30:41.512] [INFO] default - 635
+[2021-10-13T23:30:46.495] [INFO] default - 1760
+[2021-10-13T23:30:46.497] [INFO] default - 635
+[2021-10-13T23:30:51.495] [INFO] default - 1760
+[2021-10-13T23:30:51.499] [INFO] default - 635
+[2021-10-13T23:30:56.498] [INFO] default - 1760
+[2021-10-13T23:30:56.501] [INFO] default - 635
+[2021-10-13T23:31:01.510] [INFO] default - 1760
+[2021-10-13T23:31:01.597] [INFO] default - 635
+[2021-10-13T23:31:06.502] [INFO] default - 1760
+[2021-10-13T23:31:06.508] [INFO] default - 635
+[2021-10-13T23:31:11.480] [INFO] default - 1760
+[2021-10-13T23:31:11.538] [INFO] default - 635
+[2021-10-13T23:31:16.495] [INFO] default - 1760
+[2021-10-13T23:31:16.534] [INFO] default - 635
+[2021-10-13T23:31:21.517] [INFO] default - 1760
+[2021-10-13T23:31:21.525] [INFO] default - 635
+[2021-10-13T23:31:26.477] [INFO] default - 1760
+[2021-10-13T23:31:26.514] [INFO] default - 635
+[2021-10-13T23:31:31.481] [INFO] default - 1760
+[2021-10-13T23:31:31.519] [INFO] default - 635
+[2021-10-13T23:31:36.501] [INFO] default - 1760
+[2021-10-13T23:31:36.526] [INFO] default - 635
+[2021-10-13T23:31:41.486] [INFO] default - 1760
+[2021-10-13T23:31:41.506] [INFO] default - 635
+[2021-10-13T23:31:46.488] [INFO] default - 1760
+[2021-10-13T23:31:46.502] [INFO] default - 635
+[2021-10-13T23:31:51.510] [INFO] default - 1760
+[2021-10-13T23:31:51.512] [INFO] default - 635
+[2021-10-13T23:31:56.518] [INFO] default - 1760
+[2021-10-13T23:31:56.520] [INFO] default - 635
+[2021-10-13T23:32:01.514] [INFO] default - 1760
+[2021-10-13T23:32:01.516] [INFO] default - 635
+[2021-10-13T23:32:06.488] [INFO] default - 1760
+[2021-10-13T23:32:06.522] [INFO] default - 635
+[2021-10-13T23:32:11.485] [INFO] default - 1760
+[2021-10-13T23:32:11.503] [INFO] default - 635
+[2021-10-13T23:32:16.488] [INFO] default - 1760
+[2021-10-13T23:32:16.503] [INFO] default - 635
+[2021-10-13T23:32:21.491] [INFO] default - 1760
+[2021-10-13T23:32:21.506] [INFO] default - 635
+[2021-10-13T23:32:26.493] [INFO] default - 1760
+[2021-10-13T23:32:26.506] [INFO] default - 635
+[2021-10-13T23:32:31.493] [INFO] default - 1760
+[2021-10-13T23:32:31.509] [INFO] default - 635
+[2021-10-13T23:32:36.488] [INFO] default - 1760
+[2021-10-13T23:32:36.505] [INFO] default - 635
+[2021-10-13T23:32:41.526] [INFO] default - 1760
+[2021-10-13T23:32:41.529] [INFO] default - 635
+[2021-10-13T23:32:46.498] [INFO] default - 1760
+[2021-10-13T23:32:46.525] [INFO] default - 635
+[2021-10-13T23:32:51.499] [INFO] default - 1760
+[2021-10-13T23:32:51.516] [INFO] default - 635
+[2021-10-13T23:32:56.506] [INFO] default - 1760
+[2021-10-13T23:32:56.552] [INFO] default - 635
+[2021-10-13T23:33:01.555] [INFO] default - 1760
+[2021-10-13T23:33:01.557] [INFO] default - 635
+[2021-10-13T23:33:06.498] [INFO] default - 1760
+[2021-10-13T23:33:06.535] [INFO] default - 635
+[2021-10-13T23:33:11.504] [INFO] default - 1760
+[2021-10-13T23:33:11.522] [INFO] default - 635
+[2021-10-13T23:33:16.499] [INFO] default - 1760
+[2021-10-13T23:33:16.553] [INFO] default - 635
+[2021-10-13T23:33:21.530] [INFO] default - 1760
+[2021-10-13T23:33:21.549] [INFO] default - 635
+[2021-10-13T23:33:29.301] [INFO] default - 1760
+[2021-10-13T23:33:29.306] [INFO] default - 635
+[2021-10-13T23:33:34.312] [INFO] default - 1760
+[2021-10-13T23:33:34.333] [INFO] default - 635
+[2021-10-13T23:33:39.312] [INFO] default - 1760
+[2021-10-13T23:33:39.314] [INFO] default - 635
+[2021-10-13T23:33:44.317] [INFO] default - 1760
+[2021-10-13T23:33:44.320] [INFO] default - 635
+[2021-10-13T23:33:49.279] [INFO] default - 1760
+[2021-10-13T23:33:49.298] [INFO] default - 635
+[2021-10-13T23:33:54.321] [INFO] default - 1760
+[2021-10-13T23:33:54.325] [INFO] default - 635
+[2021-10-13T23:33:59.316] [INFO] default - 1760
+[2021-10-13T23:33:59.319] [INFO] default - 635
+[2021-10-13T23:34:04.317] [INFO] default - 1760
+[2021-10-13T23:34:04.319] [INFO] default - 635
+[2021-10-13T23:34:09.311] [INFO] default - 1760
+[2021-10-13T23:34:09.314] [INFO] default - 635
+[2021-10-13T23:34:14.295] [INFO] default - 1760
+[2021-10-13T23:34:14.314] [INFO] default - 635
+[2021-10-13T23:34:19.288] [INFO] default - 1760
+[2021-10-13T23:34:19.309] [INFO] default - 635
+[2021-10-13T23:34:24.287] [INFO] default - 1760
+[2021-10-13T23:34:24.323] [INFO] default - 635
+[2021-10-13T23:34:29.292] [INFO] default - 1760
+[2021-10-13T23:34:29.311] [INFO] default - 635
+[2021-10-13T23:34:34.287] [INFO] default - 1760
+[2021-10-13T23:34:34.321] [INFO] default - 635
+[2021-10-13T23:34:39.318] [INFO] default - 1760
+[2021-10-13T23:34:39.335] [INFO] default - 635
+[2021-10-13T23:34:44.325] [INFO] default - 1760
+[2021-10-13T23:34:44.328] [INFO] default - 635
+[2021-10-13T23:34:49.299] [INFO] default - 1760
+[2021-10-13T23:34:49.318] [INFO] default - 635
+[2021-10-13T23:34:54.300] [INFO] default - 1760
+[2021-10-13T23:34:54.325] [INFO] default - 635
+[2021-10-13T23:34:59.331] [INFO] default - 1760
+[2021-10-13T23:34:59.361] [INFO] default - 635
+[2021-10-13T23:35:04.329] [INFO] default - 1760
+[2021-10-13T23:35:04.332] [INFO] default - 635
+[2021-10-13T23:35:09.325] [INFO] default - 1760
+[2021-10-13T23:35:09.327] [INFO] default - 635
+[2021-10-13T23:35:14.290] [INFO] default - 1760
+[2021-10-13T23:35:14.316] [INFO] default - 635
+[2021-10-13T23:35:19.301] [INFO] default - 1760
+[2021-10-13T23:35:19.321] [INFO] default - 635
+[2021-10-13T23:35:24.300] [INFO] default - 1760
+[2021-10-13T23:35:24.317] [INFO] default - 635
+[2021-10-13T23:35:29.329] [INFO] default - 1760
+[2021-10-13T23:35:29.331] [INFO] default - 635
+[2021-10-13T23:35:34.308] [INFO] default - 1760
+[2021-10-13T23:35:34.321] [INFO] default - 635
+[2021-10-13T23:35:39.311] [INFO] default - 1760
+[2021-10-13T23:35:39.331] [INFO] default - 635
+[2021-10-13T23:35:44.335] [INFO] default - 1760
+[2021-10-13T23:35:44.337] [INFO] default - 635
+[2021-10-13T23:35:49.314] [INFO] default - 1760
+[2021-10-13T23:35:49.325] [INFO] default - 635
+[2021-10-13T23:35:54.316] [INFO] default - 1760
+[2021-10-13T23:35:54.345] [INFO] default - 635
+[2021-10-13T23:35:59.317] [INFO] default - 1760
+[2021-10-13T23:35:59.332] [INFO] default - 635
+[2021-10-13T23:36:04.345] [INFO] default - 1760
+[2021-10-13T23:36:04.347] [INFO] default - 635
+[2021-10-13T23:36:09.345] [INFO] default - 1760
+[2021-10-13T23:36:09.347] [INFO] default - 635
+[2021-10-13T23:36:14.319] [INFO] default - 1760
+[2021-10-13T23:36:14.337] [INFO] default - 635
+[2021-10-13T23:36:19.327] [INFO] default - 1760
+[2021-10-13T23:36:19.339] [INFO] default - 635
+[2021-10-13T23:36:24.308] [INFO] default - 1760
+[2021-10-13T23:36:24.337] [INFO] default - 635
+[2021-10-13T23:36:29.348] [INFO] default - 1760
+[2021-10-13T23:36:29.372] [INFO] default - 635
+[2021-10-13T23:36:34.318] [INFO] default - 1760
+[2021-10-13T23:36:34.333] [INFO] default - 635
+[2021-10-13T23:36:39.357] [INFO] default - 1760
+[2021-10-13T23:36:39.366] [INFO] default - 635
+[2021-10-13T23:36:44.322] [INFO] default - 1760
+[2021-10-13T23:36:44.348] [INFO] default - 635
+[2021-10-13T23:36:49.341] [INFO] default - 1760
+[2021-10-13T23:36:49.344] [INFO] default - 635
+[2021-10-13T23:36:54.313] [INFO] default - 1760
+[2021-10-13T23:36:54.337] [INFO] default - 635
+[2021-10-13T23:36:59.355] [INFO] default - 1760
+[2021-10-13T23:36:59.360] [INFO] default - 635
+[2021-10-13T23:37:04.357] [INFO] default - 1760
+[2021-10-13T23:37:04.362] [INFO] default - 635
+[2021-10-13T23:37:09.354] [INFO] default - 1760
+[2021-10-13T23:37:09.377] [INFO] default - 635
+[2021-10-13T23:37:14.383] [INFO] default - 1760
+[2021-10-13T23:37:14.387] [INFO] default - 635
+[2021-10-13T23:37:19.358] [INFO] default - 1760
+[2021-10-13T23:37:19.374] [INFO] default - 635
+[2021-10-13T23:37:24.351] [INFO] default - 1760
+[2021-10-13T23:37:24.354] [INFO] default - 635
+[2021-10-13T23:37:29.356] [INFO] default - 1760
+[2021-10-13T23:37:29.359] [INFO] default - 635
+[2021-10-13T23:37:34.366] [INFO] default - 635
+[2021-10-13T23:37:34.393] [INFO] default - 1760
+[2021-10-13T23:37:39.472] [INFO] default - 1760
+[2021-10-13T23:37:39.474] [INFO] default - 635
+[2021-10-13T23:37:44.338] [INFO] default - 1760
+[2021-10-13T23:37:44.342] [INFO] default - 635
+[2021-10-13T23:37:49.329] [INFO] default - 1760
+[2021-10-13T23:37:49.371] [INFO] default - 635
+[2021-10-13T23:37:54.345] [INFO] default - 1760
+[2021-10-13T23:37:54.365] [INFO] default - 635
+[2021-10-13T23:37:59.331] [INFO] default - 1760
+[2021-10-13T23:37:59.350] [INFO] default - 635
+[2021-10-13T23:38:04.364] [INFO] default - 1760
+[2021-10-13T23:38:04.401] [INFO] default - 635
+[2021-10-13T23:38:09.343] [INFO] default - 1760
+[2021-10-13T23:38:09.369] [INFO] default - 635
+[2021-10-13T23:38:14.335] [INFO] default - 1760
+[2021-10-13T23:38:14.384] [INFO] default - 635
+[2021-10-13T23:38:19.330] [INFO] default - 1760
+[2021-10-13T23:38:19.347] [INFO] default - 635
+[2021-10-13T23:38:24.362] [INFO] default - 1760
+[2021-10-13T23:38:24.392] [INFO] default - 635
+[2021-10-13T23:38:29.338] [INFO] default - 1760
+[2021-10-13T23:38:29.362] [INFO] default - 635
+[2021-10-13T23:38:34.335] [INFO] default - 1760
+[2021-10-13T23:38:34.354] [INFO] default - 635
+[2021-10-13T23:38:39.333] [INFO] default - 1760
+[2021-10-13T23:38:39.356] [INFO] default - 635
+[2021-10-13T23:38:44.354] [INFO] default - 1760
+[2021-10-13T23:38:44.390] [INFO] default - 635
+[2021-10-13T23:38:49.349] [INFO] default - 1760
+[2021-10-13T23:38:49.369] [INFO] default - 635
+[2021-10-13T23:38:54.335] [INFO] default - 1760
+[2021-10-13T23:38:54.362] [INFO] default - 635
+[2021-10-13T23:38:59.337] [INFO] default - 1760
+[2021-10-13T23:38:59.382] [INFO] default - 635
+[2021-10-13T23:39:04.345] [INFO] default - 1760
+[2021-10-13T23:39:04.383] [INFO] default - 635
+[2021-10-13T23:39:09.367] [INFO] default - 1760
+[2021-10-13T23:39:09.393] [INFO] default - 635
+[2021-10-13T23:39:14.342] [INFO] default - 1760
+[2021-10-13T23:39:14.408] [INFO] default - 635
+[2021-10-13T23:39:19.363] [INFO] default - 1760
+[2021-10-13T23:39:19.391] [INFO] default - 635
+[2021-10-13T23:39:24.339] [INFO] default - 1760
+[2021-10-13T23:39:24.400] [INFO] default - 635
+[2021-10-13T23:39:29.344] [INFO] default - 1760
+[2021-10-13T23:39:29.390] [INFO] default - 635
+[2021-10-13T23:39:34.370] [INFO] default - 1760
+[2021-10-13T23:39:34.393] [INFO] default - 635
+[2021-10-13T23:39:39.355] [INFO] default - 1760
+[2021-10-13T23:39:39.404] [INFO] default - 635
+[2021-10-13T23:39:44.349] [INFO] default - 1760
+[2021-10-13T23:39:44.382] [INFO] default - 635
+[2021-10-13T23:39:49.359] [INFO] default - 1760
+[2021-10-13T23:39:49.411] [INFO] default - 635
+[2021-10-13T23:39:54.343] [INFO] default - 1760
+[2021-10-13T23:39:54.397] [INFO] default - 635
+[2021-10-13T23:39:59.342] [INFO] default - 1760
+[2021-10-13T23:39:59.370] [INFO] default - 635
+[2021-10-13T23:40:04.378] [INFO] default - 1760
+[2021-10-13T23:40:04.392] [INFO] default - 635
+[2021-10-13T23:40:14.151] [INFO] default - 3300
+[2021-10-13T23:40:14.223] [INFO] default - 1981.2
+[2021-10-13T23:40:19.152] [INFO] default - 3300
+[2021-10-13T23:40:19.158] [INFO] default - 1981.2
+[2021-10-13T23:40:24.149] [INFO] default - 3300
+[2021-10-13T23:40:24.151] [INFO] default - 1981.2
+[2021-10-13T23:40:32.166] [INFO] default - 3300
+[2021-10-13T23:40:32.192] [INFO] default - 1981.2
+[2021-10-13T23:40:37.179] [INFO] default - 3300
+[2021-10-13T23:40:37.210] [INFO] default - 1981.2
+[2021-10-13T23:40:42.192] [INFO] default - 3300
+[2021-10-13T23:40:42.208] [INFO] default - 1981.2
+[2021-10-13T23:40:47.175] [INFO] default - 3300
+[2021-10-13T23:40:47.195] [INFO] default - 1981.2
+[2021-10-13T23:40:52.213] [INFO] default - 3300
+[2021-10-13T23:40:52.265] [INFO] default - 1981.2
+[2021-10-13T23:40:57.207] [INFO] default - 3300
+[2021-10-13T23:40:57.224] [INFO] default - 1981.2
+[2021-10-13T23:41:02.206] [INFO] default - 3300
+[2021-10-13T23:41:02.237] [INFO] default - 1981.2
+[2021-10-13T23:41:07.215] [INFO] default - 3300
+[2021-10-13T23:41:07.252] [INFO] default - 1981.2
+[2021-10-13T23:41:12.219] [INFO] default - 3300
+[2021-10-13T23:41:12.248] [INFO] default - 1981.2
+[2021-10-13T23:41:17.225] [INFO] default - 3300
+[2021-10-13T23:41:17.278] [INFO] default - 1981.2
+[2021-10-13T23:41:22.240] [INFO] default - 3300
+[2021-10-13T23:41:22.265] [INFO] default - 1981.2
+[2021-10-13T23:41:27.247] [INFO] default - 3300
+[2021-10-13T23:41:27.283] [INFO] default - 1981.2
+[2021-10-13T23:41:32.222] [INFO] default - 3300
+[2021-10-13T23:41:32.275] [INFO] default - 1981.2
+[2021-10-13T23:41:37.222] [INFO] default - 3300
+[2021-10-13T23:41:37.243] [INFO] default - 1981.2
+[2021-10-13T23:41:42.221] [INFO] default - 3300
+[2021-10-13T23:41:42.265] [INFO] default - 1981.2
+[2021-10-13T23:41:47.220] [INFO] default - 3300
+[2021-10-13T23:41:47.262] [INFO] default - 1981.2
+[2021-10-13T23:41:52.260] [INFO] default - 3300
+[2021-10-13T23:41:52.283] [INFO] default - 1981.2
+[2021-10-13T23:41:57.230] [INFO] default - 3300
+[2021-10-13T23:41:57.288] [INFO] default - 1981.2
+[2021-10-13T23:42:02.257] [INFO] default - 3300
+[2021-10-13T23:42:02.275] [INFO] default - 1981.2
+[2021-10-13T23:42:07.254] [INFO] default - 3300
+[2021-10-13T23:42:07.287] [INFO] default - 1981.2
+[2021-10-13T23:42:12.246] [INFO] default - 3300
+[2021-10-13T23:42:12.271] [INFO] default - 1981.2
+[2021-10-13T23:42:17.235] [INFO] default - 3300
+[2021-10-13T23:42:17.265] [INFO] default - 1981.2
+[2021-10-13T23:42:22.236] [INFO] default - 3300
+[2021-10-13T23:42:22.257] [INFO] default - 1981.2
+[2021-10-13T23:42:27.251] [INFO] default - 3300
+[2021-10-13T23:42:27.285] [INFO] default - 1981.2
+[2021-10-13T23:42:32.229] [INFO] default - 3300
+[2021-10-13T23:42:32.256] [INFO] default - 1981.2
+[2021-10-13T23:42:37.267] [INFO] default - 3300
+[2021-10-13T23:42:37.286] [INFO] default - 1981.2
+[2021-10-13T23:42:42.266] [INFO] default - 3300
+[2021-10-13T23:42:42.294] [INFO] default - 1981.2
+[2021-10-13T23:42:47.280] [INFO] default - 1981.2
+[2021-10-13T23:42:47.287] [INFO] default - 3300
+[2021-10-13T23:42:52.260] [INFO] default - 1981.2
+[2021-10-13T23:42:52.264] [INFO] default - 3300
+[2021-10-13T23:42:57.260] [INFO] default - 3300
+[2021-10-13T23:42:57.264] [INFO] default - 1981.2
+[2021-10-13T23:43:02.261] [INFO] default - 3300
+[2021-10-13T23:43:02.279] [INFO] default - 1981.2
+[2021-10-13T23:43:07.271] [INFO] default - 3300
+[2021-10-13T23:43:07.280] [INFO] default - 1981.2
+[2021-10-13T23:43:12.335] [INFO] default - 3300
+[2021-10-13T23:43:12.338] [INFO] default - 1981.2
+[2021-10-13T23:43:17.276] [INFO] default - 3300
+[2021-10-13T23:43:17.283] [INFO] default - 1981.2
+[2021-10-13T23:43:22.251] [INFO] default - 3300
+[2021-10-13T23:43:22.275] [INFO] default - 1981.2
+[2021-10-13T23:43:27.245] [INFO] default - 3300
+[2021-10-13T23:43:27.278] [INFO] default - 1981.2
+[2021-10-13T23:43:32.232] [INFO] default - 3300
+[2021-10-13T23:43:32.269] [INFO] default - 1981.2
+[2021-10-13T23:43:37.238] [INFO] default - 3300
+[2021-10-13T23:43:37.304] [INFO] default - 1981.2
+[2021-10-13T23:43:42.242] [INFO] default - 3300
+[2021-10-13T23:43:42.294] [INFO] default - 1981.2
+[2021-10-13T23:43:47.243] [INFO] default - 3300
+[2021-10-13T23:43:47.271] [INFO] default - 1981.2
+[2021-10-13T23:43:52.270] [INFO] default - 3300
+[2021-10-13T23:43:52.275] [INFO] default - 1981.2
+[2021-10-13T23:43:57.271] [INFO] default - 3300
+[2021-10-13T23:43:57.278] [INFO] default - 1981.2
+[2021-10-13T23:44:02.287] [INFO] default - 1981.2
+[2021-10-13T23:44:02.331] [INFO] default - 3300
+[2021-10-13T23:44:07.253] [INFO] default - 3300
+[2021-10-13T23:44:07.292] [INFO] default - 1981.2
+[2021-10-13T23:44:12.298] [INFO] default - 3300
+[2021-10-13T23:44:12.300] [INFO] default - 1981.2
+[2021-10-13T23:44:17.270] [INFO] default - 3300
+[2021-10-13T23:44:17.294] [INFO] default - 1981.2
+[2021-10-13T23:44:22.258] [INFO] default - 3300
+[2021-10-13T23:44:22.279] [INFO] default - 1981.2
+[2021-10-13T23:44:27.248] [INFO] default - 3300
+[2021-10-13T23:44:27.265] [INFO] default - 1981.2
+[2021-10-13T23:44:32.249] [INFO] default - 3300
+[2021-10-13T23:44:32.274] [INFO] default - 1981.2
+[2021-10-13T23:44:37.251] [INFO] default - 3300
+[2021-10-13T23:44:37.274] [INFO] default - 1981.2
+[2021-10-13T23:44:42.253] [INFO] default - 3300
+[2021-10-13T23:44:42.270] [INFO] default - 1981.2
+[2021-10-13T23:44:47.258] [INFO] default - 3300
+[2021-10-13T23:44:47.276] [INFO] default - 1981.2
+[2021-10-13T23:44:52.287] [INFO] default - 3300
+[2021-10-13T23:44:52.290] [INFO] default - 1981.2
+[2021-10-13T23:44:57.254] [INFO] default - 3300
+[2021-10-13T23:44:57.271] [INFO] default - 1981.2
+[2021-10-13T23:45:02.292] [INFO] default - 3300
+[2021-10-13T23:45:02.296] [INFO] default - 1981.2
+[2021-10-13T23:45:07.257] [INFO] default - 3300
+[2021-10-13T23:45:07.275] [INFO] default - 1981.2
+[2021-10-13T23:45:12.265] [INFO] default - 3300
+[2021-10-13T23:45:12.282] [INFO] default - 1981.2
+[2021-10-13T23:45:17.271] [INFO] default - 3300
+[2021-10-13T23:45:17.285] [INFO] default - 1981.2
+[2021-10-13T23:45:22.286] [INFO] default - 3300
+[2021-10-13T23:45:22.288] [INFO] default - 1981.2
+[2021-10-13T23:45:27.301] [INFO] default - 3300
+[2021-10-13T23:45:27.303] [INFO] default - 1981.2
+[2021-10-13T23:45:32.257] [INFO] default - 3300
+[2021-10-13T23:45:32.279] [INFO] default - 1981.2
+[2021-10-13T23:45:37.270] [INFO] default - 3300
+[2021-10-13T23:45:37.281] [INFO] default - 1981.2
+[2021-10-13T23:45:42.292] [INFO] default - 3300
+[2021-10-13T23:45:42.303] [INFO] default - 1981.2
+[2021-10-13T23:45:47.263] [INFO] default - 3300
+[2021-10-13T23:45:47.290] [INFO] default - 1981.2
+[2021-10-13T23:45:52.370] [INFO] default - 3300
+[2021-10-13T23:45:52.375] [INFO] default - 1981.2
+[2021-10-13T23:45:57.301] [INFO] default - 3300
+[2021-10-13T23:45:57.303] [INFO] default - 1981.2
+[2021-10-13T23:46:02.310] [INFO] default - 3300
+[2021-10-13T23:46:02.312] [INFO] default - 1981.2
+[2021-10-13T23:46:07.306] [INFO] default - 3300
+[2021-10-13T23:46:07.309] [INFO] default - 1981.2
+[2021-10-13T23:46:12.294] [INFO] default - 3300
+[2021-10-13T23:46:12.296] [INFO] default - 1981.2
+[2021-10-13T23:46:17.268] [INFO] default - 3300
+[2021-10-13T23:46:17.295] [INFO] default - 1981.2
+[2021-10-13T23:46:22.297] [INFO] default - 3300
+[2021-10-13T23:46:22.300] [INFO] default - 1981.2
+[2021-10-13T23:46:27.298] [INFO] default - 3300
+[2021-10-13T23:46:27.300] [INFO] default - 1981.2
+[2021-10-13T23:46:32.276] [INFO] default - 3300
+[2021-10-13T23:46:32.297] [INFO] default - 1981.2
+[2021-10-13T23:46:37.305] [INFO] default - 3300
+[2021-10-13T23:46:37.307] [INFO] default - 1981.2
+[2021-10-13T23:46:42.308] [INFO] default - 3300
+[2021-10-13T23:46:42.311] [INFO] default - 1981.2
+[2021-10-13T23:46:47.311] [INFO] default - 3300
+[2021-10-13T23:46:47.314] [INFO] default - 1981.2
+[2021-10-13T23:46:52.286] [INFO] default - 3300
+[2021-10-13T23:46:52.296] [INFO] default - 1981.2
+[2021-10-13T23:46:57.279] [INFO] default - 3300
+[2021-10-13T23:46:57.303] [INFO] default - 1981.2
+[2021-10-13T23:47:02.303] [INFO] default - 3300
+[2021-10-13T23:47:02.307] [INFO] default - 1981.2
+[2021-10-13T23:47:07.284] [INFO] default - 3300
+[2021-10-13T23:47:07.297] [INFO] default - 1981.2
+[2021-10-13T23:47:12.280] [INFO] default - 3300
+[2021-10-13T23:47:12.299] [INFO] default - 1981.2
+[2021-10-13T23:47:17.285] [INFO] default - 3300
+[2021-10-13T23:47:17.304] [INFO] default - 1981.2
+[2021-10-13T23:47:22.288] [INFO] default - 3300
+[2021-10-13T23:47:22.299] [INFO] default - 1981.2
+[2021-10-13T23:47:27.294] [INFO] default - 3300
+[2021-10-13T23:47:27.301] [INFO] default - 1981.2
+[2021-10-13T23:47:32.287] [INFO] default - 3300
+[2021-10-13T23:47:32.312] [INFO] default - 1981.2
+[2021-10-13T23:47:37.291] [INFO] default - 3300
+[2021-10-13T23:47:37.306] [INFO] default - 1981.2
+[2021-10-13T23:47:42.285] [INFO] default - 3300
+[2021-10-13T23:47:42.310] [INFO] default - 1981.2
+[2021-10-13T23:47:47.297] [INFO] default - 3300
+[2021-10-13T23:47:47.312] [INFO] default - 1981.2
+[2021-10-13T23:47:52.319] [INFO] default - 3300
+[2021-10-13T23:47:52.321] [INFO] default - 1981.2
+[2021-10-13T23:47:57.297] [INFO] default - 3300
+[2021-10-13T23:47:57.324] [INFO] default - 1981.2
+[2021-10-13T23:48:02.332] [INFO] default - 3300
+[2021-10-13T23:48:02.333] [INFO] default - 1981.2
+[2021-10-13T23:48:07.286] [INFO] default - 3300
+[2021-10-13T23:48:07.308] [INFO] default - 1981.2
+[2021-10-13T23:48:12.289] [INFO] default - 3300
+[2021-10-13T23:48:12.310] [INFO] default - 1981.2
+[2021-10-13T23:48:17.293] [INFO] default - 3300
+[2021-10-13T23:48:17.310] [INFO] default - 1981.2
+[2021-10-13T23:48:22.300] [INFO] default - 3300
+[2021-10-13T23:48:22.311] [INFO] default - 1981.2
+[2021-10-13T23:48:27.300] [INFO] default - 3300
+[2021-10-13T23:48:27.316] [INFO] default - 1981.2
+[2021-10-13T23:48:32.334] [INFO] default - 3300
+[2021-10-13T23:48:32.338] [INFO] default - 1981.2
+[2021-10-13T23:48:37.296] [INFO] default - 3300
+[2021-10-13T23:48:37.315] [INFO] default - 1981.2
+[2021-10-13T23:48:42.306] [INFO] default - 3300
+[2021-10-13T23:48:42.326] [INFO] default - 1981.2
+[2021-10-13T23:48:47.295] [INFO] default - 3300
+[2021-10-13T23:48:47.314] [INFO] default - 1981.2
+[2021-10-13T23:48:52.297] [INFO] default - 3300
+[2021-10-13T23:48:52.316] [INFO] default - 1981.2
+[2021-10-13T23:48:57.300] [INFO] default - 3300
+[2021-10-13T23:48:57.319] [INFO] default - 1981.2
+[2021-10-13T23:49:02.331] [INFO] default - 3300
+[2021-10-13T23:49:02.335] [INFO] default - 1981.2
+[2021-10-13T23:49:07.296] [INFO] default - 3300
+[2021-10-13T23:49:07.323] [INFO] default - 1981.2
+[2021-10-13T23:49:12.307] [INFO] default - 3300
+[2021-10-13T23:49:12.324] [INFO] default - 1981.2
+[2021-10-13T23:49:17.305] [INFO] default - 3300
+[2021-10-13T23:49:17.333] [INFO] default - 1981.2
+[2021-10-13T23:49:22.309] [INFO] default - 3300
+[2021-10-13T23:49:22.327] [INFO] default - 1981.2
+[2021-10-13T23:49:27.315] [INFO] default - 3300
+[2021-10-13T23:49:27.326] [INFO] default - 1981.2
+[2021-10-13T23:49:32.343] [INFO] default - 3300
+[2021-10-13T23:49:32.345] [INFO] default - 1981.2
+[2021-10-13T23:49:37.317] [INFO] default - 3300
+[2021-10-13T23:49:37.334] [INFO] default - 1981.2
+[2021-10-13T23:49:42.375] [INFO] default - 3300
+[2021-10-13T23:49:42.377] [INFO] default - 1981.2
+[2021-10-13T23:49:47.336] [INFO] default - 3300
+[2021-10-13T23:49:47.341] [INFO] default - 1981.2
+[2021-10-13T23:49:52.311] [INFO] default - 3300
+[2021-10-13T23:49:52.332] [INFO] default - 1981.2
+[2021-10-13T23:49:57.311] [INFO] default - 3300
+[2021-10-13T23:49:57.334] [INFO] default - 1981.2
+[2021-10-13T23:50:02.325] [INFO] default - 3300
+[2021-10-13T23:50:02.334] [INFO] default - 1981.2
+[2021-10-13T23:50:07.328] [INFO] default - 3300
+[2021-10-13T23:50:07.341] [INFO] default - 1981.2
+[2021-10-13T23:50:12.324] [INFO] default - 3300
+[2021-10-13T23:50:12.330] [INFO] default - 1981.2
+[2021-10-13T23:50:17.320] [INFO] default - 3300
+[2021-10-13T23:50:17.338] [INFO] default - 1981.2
+[2021-10-13T23:50:22.325] [INFO] default - 3300
+[2021-10-13T23:50:22.338] [INFO] default - 1981.2
+[2021-10-13T23:50:27.326] [INFO] default - 3300
+[2021-10-13T23:50:27.336] [INFO] default - 1981.2
+[2021-10-13T23:50:32.321] [INFO] default - 3300
+[2021-10-13T23:50:32.327] [INFO] default - 1981.2
+[2021-10-13T23:50:37.315] [INFO] default - 3300
+[2021-10-13T23:50:37.330] [INFO] default - 1981.2
+[2021-10-13T23:50:42.341] [INFO] default - 3300
+[2021-10-13T23:50:42.345] [INFO] default - 1981.2
+[2021-10-13T23:50:47.319] [INFO] default - 3300
+[2021-10-13T23:50:47.344] [INFO] default - 1981.2
+[2021-10-13T23:50:52.324] [INFO] default - 3300
+[2021-10-13T23:50:52.338] [INFO] default - 1981.2
+[2021-10-13T23:50:57.338] [INFO] default - 3300
+[2021-10-13T23:50:57.341] [INFO] default - 1981.2
+[2021-10-13T23:51:02.344] [INFO] default - 3300
+[2021-10-13T23:51:02.346] [INFO] default - 1981.2
+[2021-10-13T23:51:07.328] [INFO] default - 3300
+[2021-10-13T23:51:07.350] [INFO] default - 1981.2
+[2021-10-13T23:51:12.320] [INFO] default - 3300
+[2021-10-13T23:51:12.334] [INFO] default - 1981.2
+[2021-10-13T23:51:17.322] [INFO] default - 3300
+[2021-10-13T23:51:17.339] [INFO] default - 1981.2
+[2021-10-13T23:51:22.322] [INFO] default - 3300
+[2021-10-13T23:51:22.340] [INFO] default - 1981.2
+[2021-10-13T23:51:27.322] [INFO] default - 3300
+[2021-10-13T23:51:27.359] [INFO] default - 1981.2
+[2021-10-13T23:51:32.340] [INFO] default - 3300
+[2021-10-13T23:51:32.344] [INFO] default - 1981.2
+[2021-10-13T23:51:37.334] [INFO] default - 3300
+[2021-10-13T23:51:37.354] [INFO] default - 1981.2
+[2021-10-13T23:51:42.334] [INFO] default - 3300
+[2021-10-13T23:51:42.344] [INFO] default - 1981.2
+[2021-10-13T23:51:47.333] [INFO] default - 3300
+[2021-10-13T23:51:47.348] [INFO] default - 1981.2
+[2021-10-13T23:51:52.338] [INFO] default - 3300
+[2021-10-13T23:51:52.347] [INFO] default - 1981.2
+[2021-10-13T23:51:57.319] [INFO] default - 3300
+[2021-10-13T23:51:57.347] [INFO] default - 1981.2
+[2021-10-13T23:52:02.338] [INFO] default - 3300
+[2021-10-13T23:52:02.339] [INFO] default - 1981.2
+[2021-10-13T23:52:07.328] [INFO] default - 3300
+[2021-10-13T23:52:07.345] [INFO] default - 1981.2
+[2021-10-13T23:52:12.329] [INFO] default - 3300
+[2021-10-13T23:52:12.346] [INFO] default - 1981.2
+[2021-10-13T23:52:17.336] [INFO] default - 3300
+[2021-10-13T23:52:17.350] [INFO] default - 1981.2
+[2021-10-13T23:52:22.337] [INFO] default - 3300
+[2021-10-13T23:52:22.354] [INFO] default - 1981.2
+[2021-10-13T23:52:27.331] [INFO] default - 3300
+[2021-10-13T23:52:27.348] [INFO] default - 1981.2
+[2021-10-13T23:52:32.355] [INFO] default - 3300
+[2021-10-13T23:52:32.358] [INFO] default - 1981.2
+[2021-10-13T23:52:37.328] [INFO] default - 3300
+[2021-10-13T23:52:37.347] [INFO] default - 1981.2
+[2021-10-13T23:52:42.331] [INFO] default - 3300
+[2021-10-13T23:52:42.354] [INFO] default - 1981.2
+[2021-10-13T23:52:47.331] [INFO] default - 3300
+[2021-10-13T23:52:47.350] [INFO] default - 1981.2
+[2021-10-13T23:52:52.335] [INFO] default - 3300
+[2021-10-13T23:52:52.356] [INFO] default - 1981.2
+[2021-10-13T23:52:57.338] [INFO] default - 3300
+[2021-10-13T23:52:57.354] [INFO] default - 1981.2
+[2021-10-13T23:53:02.349] [INFO] default - 3300
+[2021-10-13T23:53:02.360] [INFO] default - 1981.2
+[2021-10-13T23:53:07.345] [INFO] default - 3300
+[2021-10-13T23:53:07.357] [INFO] default - 1981.2
+[2021-10-13T23:53:12.356] [INFO] default - 3300
+[2021-10-13T23:53:12.358] [INFO] default - 1981.2
+[2021-10-13T23:53:17.346] [INFO] default - 3300
+[2021-10-13T23:53:17.357] [INFO] default - 1981.2
+[2021-10-13T23:53:22.349] [INFO] default - 3300
+[2021-10-13T23:53:22.357] [INFO] default - 1981.2
+[2021-10-13T23:53:27.337] [INFO] default - 3300
+[2021-10-13T23:53:27.354] [INFO] default - 1981.2
+[2021-10-13T23:53:32.355] [INFO] default - 3300
+[2021-10-13T23:53:32.359] [INFO] default - 1981.2
+[2021-10-13T23:53:37.356] [INFO] default - 3300
+[2021-10-13T23:53:37.358] [INFO] default - 1981.2
+[2021-10-13T23:53:42.363] [INFO] default - 3300
+[2021-10-13T23:53:42.366] [INFO] default - 1981.2
+[2021-10-13T23:53:47.362] [INFO] default - 3300
+[2021-10-13T23:53:47.366] [INFO] default - 1981.2
+[2021-10-13T23:53:52.341] [INFO] default - 3300
+[2021-10-13T23:53:52.355] [INFO] default - 1981.2
+[2021-10-13T23:53:57.339] [INFO] default - 3300
+[2021-10-13T23:53:57.357] [INFO] default - 1981.2
+[2021-10-13T23:54:02.358] [INFO] default - 3300
+[2021-10-13T23:54:02.362] [INFO] default - 1981.2
+[2021-10-13T23:54:07.343] [INFO] default - 3300
+[2021-10-13T23:54:07.361] [INFO] default - 1981.2
+[2021-10-13T23:54:12.343] [INFO] default - 3300
+[2021-10-13T23:54:12.359] [INFO] default - 1981.2
+[2021-10-13T23:54:17.344] [INFO] default - 3300
+[2021-10-13T23:54:17.373] [INFO] default - 1981.2
+[2021-10-13T23:54:22.342] [INFO] default - 3300
+[2021-10-13T23:54:22.365] [INFO] default - 1981.2
+[2021-10-13T23:54:27.352] [INFO] default - 3300
+[2021-10-13T23:54:27.366] [INFO] default - 1981.2
+[2021-10-13T23:54:32.357] [INFO] default - 3300
+[2021-10-13T23:54:32.361] [INFO] default - 1981.2
+[2021-10-13T23:54:37.343] [INFO] default - 3300
+[2021-10-13T23:54:37.364] [INFO] default - 1981.2
+[2021-10-13T23:54:42.341] [INFO] default - 3300
+[2021-10-13T23:54:42.361] [INFO] default - 1981.2
+[2021-10-13T23:54:47.343] [INFO] default - 3300
+[2021-10-13T23:54:47.364] [INFO] default - 1981.2
+[2021-10-13T23:54:52.350] [INFO] default - 3300
+[2021-10-13T23:54:52.366] [INFO] default - 1981.2
+[2021-10-13T23:54:57.350] [INFO] default - 3300
+[2021-10-13T23:54:57.365] [INFO] default - 1981.2
+[2021-10-13T23:55:02.368] [INFO] default - 3300
+[2021-10-13T23:55:02.370] [INFO] default - 1981.2
+[2021-10-13T23:55:07.345] [INFO] default - 3300
+[2021-10-13T23:55:07.368] [INFO] default - 1981.2
+[2021-10-13T23:55:12.348] [INFO] default - 3300
+[2021-10-13T23:55:12.365] [INFO] default - 1981.2
+[2021-10-13T23:55:17.351] [INFO] default - 3300
+[2021-10-13T23:55:17.366] [INFO] default - 1981.2
+[2021-10-13T23:55:22.345] [INFO] default - 3300
+[2021-10-13T23:55:22.366] [INFO] default - 1981.2
+[2021-10-13T23:55:27.351] [INFO] default - 3300
+[2021-10-13T23:55:27.370] [INFO] default - 1981.2
+[2021-10-13T23:55:32.372] [INFO] default - 3300
+[2021-10-13T23:55:32.375] [INFO] default - 1981.2
+[2021-10-13T23:55:37.356] [INFO] default - 3300
+[2021-10-13T23:55:37.377] [INFO] default - 1981.2
+[2021-10-13T23:55:42.365] [INFO] default - 3300
+[2021-10-13T23:55:42.369] [INFO] default - 1981.2
+[2021-10-13T23:55:47.374] [INFO] default - 3300
+[2021-10-13T23:55:47.377] [INFO] default - 1981.2
+[2021-10-13T23:55:52.361] [INFO] default - 3300
+[2021-10-13T23:55:52.373] [INFO] default - 1981.2
+[2021-10-13T23:55:57.354] [INFO] default - 3300
+[2021-10-13T23:55:57.373] [INFO] default - 1981.2
+[2021-10-13T23:56:02.378] [INFO] default - 3300
+[2021-10-13T23:56:02.380] [INFO] default - 1981.2
+[2021-10-13T23:56:07.357] [INFO] default - 3300
+[2021-10-13T23:56:07.376] [INFO] default - 1981.2
+[2021-10-13T23:56:12.359] [INFO] default - 3300
+[2021-10-13T23:56:12.376] [INFO] default - 1981.2
+[2021-10-13T23:56:17.349] [INFO] default - 3300
+[2021-10-13T23:56:17.373] [INFO] default - 1981.2
+[2021-10-13T23:56:22.351] [INFO] default - 3300
+[2021-10-13T23:56:22.369] [INFO] default - 1981.2
+[2021-10-13T23:56:27.355] [INFO] default - 3300
+[2021-10-13T23:56:27.373] [INFO] default - 1981.2
+[2021-10-13T23:56:32.377] [INFO] default - 3300
+[2021-10-13T23:56:32.380] [INFO] default - 1981.2
+[2021-10-13T23:56:37.359] [INFO] default - 3300
+[2021-10-13T23:56:37.379] [INFO] default - 1981.2
+[2021-10-13T23:56:42.438] [INFO] default - 3300
+[2021-10-13T23:56:42.441] [INFO] default - 1981.2
+[2021-10-13T23:56:47.378] [INFO] default - 3300
+[2021-10-13T23:56:47.380] [INFO] default - 1981.2
+[2021-10-13T23:56:52.355] [INFO] default - 3300
+[2021-10-13T23:56:52.374] [INFO] default - 1981.2
+[2021-10-13T23:56:57.373] [INFO] default - 3300
+[2021-10-13T23:56:57.376] [INFO] default - 1981.2
+[2021-10-13T23:57:02.354] [INFO] default - 3300
+[2021-10-13T23:57:02.373] [INFO] default - 1981.2
+[2021-10-13T23:57:07.358] [INFO] default - 3300
+[2021-10-13T23:57:07.375] [INFO] default - 1981.2
+[2021-10-13T23:57:12.376] [INFO] default - 3300
+[2021-10-13T23:57:12.378] [INFO] default - 1981.2
+[2021-10-13T23:57:17.383] [INFO] default - 3300
+[2021-10-13T23:57:17.386] [INFO] default - 1981.2
+[2021-10-13T23:57:22.369] [INFO] default - 3300
+[2021-10-13T23:57:22.389] [INFO] default - 1981.2
+[2021-10-13T23:57:27.357] [INFO] default - 3300
+[2021-10-13T23:57:27.376] [INFO] default - 1981.2
+[2021-10-13T23:57:32.377] [INFO] default - 3300
+[2021-10-13T23:57:32.378] [INFO] default - 1981.2
+[2021-10-13T23:57:37.364] [INFO] default - 3300
+[2021-10-13T23:57:37.385] [INFO] default - 1981.2
+[2021-10-13T23:57:42.364] [INFO] default - 3300
+[2021-10-13T23:57:42.383] [INFO] default - 1981.2
+[2021-10-13T23:57:47.382] [INFO] default - 3300
+[2021-10-13T23:57:47.385] [INFO] default - 1981.2
+[2021-10-13T23:57:52.368] [INFO] default - 3300
+[2021-10-13T23:57:52.389] [INFO] default - 1981.2
+[2021-10-13T23:57:57.373] [INFO] default - 3300
+[2021-10-13T23:57:57.383] [INFO] default - 1981.2
+[2021-10-13T23:58:02.375] [INFO] default - 3300
+[2021-10-13T23:58:02.377] [INFO] default - 1981.2
+[2021-10-13T23:58:07.357] [INFO] default - 3300
+[2021-10-13T23:58:07.376] [INFO] default - 1981.2
+[2021-10-13T23:58:12.360] [INFO] default - 3300
+[2021-10-13T23:58:12.379] [INFO] default - 1981.2
+[2021-10-13T23:58:17.361] [INFO] default - 3300
+[2021-10-13T23:58:17.379] [INFO] default - 1981.2
+[2021-10-13T23:58:22.368] [INFO] default - 3300
+[2021-10-13T23:58:22.389] [INFO] default - 1981.2
+[2021-10-13T23:58:27.365] [INFO] default - 3300
+[2021-10-13T23:58:27.386] [INFO] default - 1981.2
+[2021-10-13T23:58:32.383] [INFO] default - 3300
+[2021-10-13T23:58:32.392] [INFO] default - 1981.2
+[2021-10-13T23:58:37.363] [INFO] default - 3300
+[2021-10-13T23:58:37.380] [INFO] default - 1981.2
+[2021-10-13T23:58:42.363] [INFO] default - 3300
+[2021-10-13T23:58:42.383] [INFO] default - 1981.2
+[2021-10-13T23:58:47.366] [INFO] default - 3300
+[2021-10-13T23:58:47.387] [INFO] default - 1981.2
+[2021-10-13T23:58:52.372] [INFO] default - 3300
+[2021-10-13T23:58:52.385] [INFO] default - 1981.2
+[2021-10-13T23:58:57.371] [INFO] default - 3300
+[2021-10-13T23:58:57.394] [INFO] default - 1981.2
+[2021-10-13T23:59:02.399] [INFO] default - 3300
+[2021-10-13T23:59:02.402] [INFO] default - 1981.2
+[2021-10-13T23:59:07.377] [INFO] default - 3300
+[2021-10-13T23:59:07.390] [INFO] default - 1981.2
+[2021-10-13T23:59:12.378] [INFO] default - 3300
+[2021-10-13T23:59:12.389] [INFO] default - 1981.2
+[2021-10-13T23:59:17.378] [INFO] default - 3300
+[2021-10-13T23:59:17.402] [INFO] default - 1981.2
+[2021-10-13T23:59:22.375] [INFO] default - 3300
+[2021-10-13T23:59:22.398] [INFO] default - 1981.2
+[2021-10-13T23:59:27.373] [INFO] default - 3300
+[2021-10-13T23:59:27.392] [INFO] default - 1981.2
+[2021-10-13T23:59:32.399] [INFO] default - 3300
+[2021-10-13T23:59:32.404] [INFO] default - 1981.2
+[2021-10-13T23:59:37.378] [INFO] default - 3300
+[2021-10-13T23:59:37.394] [INFO] default - 1981.2
+[2021-10-13T23:59:42.400] [INFO] default - 3300
+[2021-10-13T23:59:42.404] [INFO] default - 1981.2
+[2021-10-13T23:59:47.387] [INFO] default - 3300
+[2021-10-13T23:59:47.397] [INFO] default - 1981.2
+[2021-10-13T23:59:52.384] [INFO] default - 3300
+[2021-10-13T23:59:52.399] [INFO] default - 1981.2
+[2021-10-13T23:59:57.383] [INFO] default - 3300
+[2021-10-13T23:59:57.404] [INFO] default - 1981.2
+[2021-10-14T00:00:02.407] [INFO] default - 3300
+[2021-10-14T00:00:02.409] [INFO] default - 1981.2
+[2021-10-14T00:00:07.388] [INFO] default - 3300
+[2021-10-14T00:00:07.404] [INFO] default - 1981.2
+[2021-10-14T00:00:12.385] [INFO] default - 3300
+[2021-10-14T00:00:12.403] [INFO] default - 1981.2
+[2021-10-14T00:00:17.386] [INFO] default - 3300
+[2021-10-14T00:00:17.409] [INFO] default - 1981.2
+[2021-10-14T00:00:22.404] [INFO] default - 3300
+[2021-10-14T00:00:22.407] [INFO] default - 1981.2
+[2021-10-14T00:00:27.382] [INFO] default - 3300
+[2021-10-14T00:00:27.404] [INFO] default - 1981.2
+[2021-10-14T00:00:32.406] [INFO] default - 3300
+[2021-10-14T00:00:32.408] [INFO] default - 1981.2
+[2021-10-14T00:00:37.408] [INFO] default - 3300
+[2021-10-14T00:00:37.413] [INFO] default - 1981.2
+[2021-10-14T00:00:42.412] [INFO] default - 3300
+[2021-10-14T00:00:42.416] [INFO] default - 1981.2
+[2021-10-14T00:00:47.412] [INFO] default - 3300
+[2021-10-14T00:00:47.416] [INFO] default - 1981.2
+[2021-10-14T00:00:52.395] [INFO] default - 3300
+[2021-10-14T00:00:52.410] [INFO] default - 1981.2
+[2021-10-14T00:00:57.422] [INFO] default - 3300
+[2021-10-14T00:00:57.425] [INFO] default - 1981.2
+[2021-10-14T00:01:02.418] [INFO] default - 3300
+[2021-10-14T00:01:02.422] [INFO] default - 1981.2
+[2021-10-14T00:01:07.403] [INFO] default - 3300
+[2021-10-14T00:01:07.418] [INFO] default - 1981.2
+[2021-10-14T00:01:12.404] [INFO] default - 3300
+[2021-10-14T00:01:12.416] [INFO] default - 1981.2
+[2021-10-14T00:01:17.404] [INFO] default - 3300
+[2021-10-14T00:01:17.422] [INFO] default - 1981.2
+[2021-10-14T00:01:22.400] [INFO] default - 3300
+[2021-10-14T00:01:22.419] [INFO] default - 1981.2
+[2021-10-14T00:01:27.398] [INFO] default - 3300
+[2021-10-14T00:01:27.417] [INFO] default - 1981.2
+[2021-10-14T00:01:32.421] [INFO] default - 3300
+[2021-10-14T00:01:32.424] [INFO] default - 1981.2
+[2021-10-14T00:01:37.399] [INFO] default - 3300
+[2021-10-14T00:01:37.414] [INFO] default - 1981.2
+[2021-10-14T00:01:42.403] [INFO] default - 3300
+[2021-10-14T00:01:42.420] [INFO] default - 1981.2
+[2021-10-14T00:01:47.427] [INFO] default - 3300
+[2021-10-14T00:01:47.429] [INFO] default - 1981.2
+[2021-10-14T00:01:52.408] [INFO] default - 3300
+[2021-10-14T00:01:52.424] [INFO] default - 1981.2
+[2021-10-14T00:01:57.409] [INFO] default - 3300
+[2021-10-14T00:01:57.428] [INFO] default - 1981.2
+[2021-10-14T00:02:02.430] [INFO] default - 3300
+[2021-10-14T00:02:02.439] [INFO] default - 1981.2
+[2021-10-14T00:02:07.419] [INFO] default - 3300
+[2021-10-14T00:02:07.436] [INFO] default - 1981.2
+[2021-10-14T00:02:12.433] [INFO] default - 3300
+[2021-10-14T00:02:12.445] [INFO] default - 1981.2
+[2021-10-14T00:02:17.427] [INFO] default - 3300
+[2021-10-14T00:02:17.433] [INFO] default - 1981.2
+[2021-10-14T00:02:22.410] [INFO] default - 3300
+[2021-10-14T00:02:22.424] [INFO] default - 1981.2
+[2021-10-14T00:02:27.429] [INFO] default - 3300
+[2021-10-14T00:02:27.435] [INFO] default - 1981.2
+[2021-10-14T00:02:32.434] [INFO] default - 3300
+[2021-10-14T00:02:32.437] [INFO] default - 1981.2
+[2021-10-14T00:02:37.413] [INFO] default - 3300
+[2021-10-14T00:02:37.430] [INFO] default - 1981.2
+[2021-10-14T00:02:42.438] [INFO] default - 3300
+[2021-10-14T00:02:42.443] [INFO] default - 1981.2
+[2021-10-14T00:02:47.416] [INFO] default - 3300
+[2021-10-14T00:02:47.435] [INFO] default - 1981.2
+[2021-10-14T00:02:52.419] [INFO] default - 3300
+[2021-10-14T00:02:52.473] [INFO] default - 1981.2
+[2021-10-14T00:02:57.447] [INFO] default - 3300
+[2021-10-14T00:02:57.449] [INFO] default - 1981.2
+[2021-10-14T00:03:02.447] [INFO] default - 3300
+[2021-10-14T00:03:02.465] [INFO] default - 1981.2
+[2021-10-14T00:03:07.413] [INFO] default - 3300
+[2021-10-14T00:03:07.440] [INFO] default - 1981.2
+[2021-10-14T00:03:12.417] [INFO] default - 3300
+[2021-10-14T00:03:12.435] [INFO] default - 1981.2
+[2021-10-14T00:03:17.453] [INFO] default - 3300
+[2021-10-14T00:03:17.462] [INFO] default - 1981.2
+[2021-10-14T00:03:22.460] [INFO] default - 3300
+[2021-10-14T00:03:22.481] [INFO] default - 1981.2
+[2021-10-14T00:03:27.463] [INFO] default - 1981.2
+[2021-10-14T00:03:27.473] [INFO] default - 3300
+[2021-10-14T00:03:32.450] [INFO] default - 1981.2
+[2021-10-14T00:03:32.462] [INFO] default - 3300
+[2021-10-14T00:03:37.424] [INFO] default - 3300
+[2021-10-14T00:03:37.460] [INFO] default - 1981.2
+[2021-10-14T00:03:42.441] [INFO] default - 3300
+[2021-10-14T00:03:42.443] [INFO] default - 1981.2
+[2021-10-14T00:03:47.424] [INFO] default - 3300
+[2021-10-14T00:03:47.449] [INFO] default - 1981.2
+[2021-10-14T00:03:52.451] [INFO] default - 3300
+[2021-10-14T00:03:52.457] [INFO] default - 1981.2
+[2021-10-14T00:03:57.449] [INFO] default - 3300
+[2021-10-14T00:03:57.453] [INFO] default - 1981.2
+[2021-10-14T00:04:02.453] [INFO] default - 3300
+[2021-10-14T00:04:02.461] [INFO] default - 1981.2
+[2021-10-14T00:04:07.452] [INFO] default - 3300
+[2021-10-14T00:04:07.456] [INFO] default - 1981.2
+[2021-10-14T00:04:12.461] [INFO] default - 3300
+[2021-10-14T00:04:12.464] [INFO] default - 1981.2
+[2021-10-14T00:04:17.457] [INFO] default - 3300
+[2021-10-14T00:04:17.469] [INFO] default - 1981.2
+[2021-10-14T00:04:22.464] [INFO] default - 3300
+[2021-10-14T00:04:22.475] [INFO] default - 1981.2
+[2021-10-14T00:04:27.473] [INFO] default - 3300
+[2021-10-14T00:04:27.478] [INFO] default - 1981.2
+[2021-10-14T00:04:32.465] [INFO] default - 3300
+[2021-10-14T00:04:32.486] [INFO] default - 1981.2
+[2021-10-14T00:04:37.438] [INFO] default - 3300
+[2021-10-14T00:04:37.463] [INFO] default - 1981.2
+[2021-10-14T00:04:42.469] [INFO] default - 3300
+[2021-10-14T00:04:42.474] [INFO] default - 1981.2
+[2021-10-14T00:04:47.433] [INFO] default - 3300
+[2021-10-14T00:04:47.458] [INFO] default - 1981.2
+[2021-10-14T00:04:52.464] [INFO] default - 3300
+[2021-10-14T00:04:52.472] [INFO] default - 1981.2
+[2021-10-14T00:04:57.433] [INFO] default - 3300
+[2021-10-14T00:04:57.454] [INFO] default - 1981.2
+[2021-10-14T00:05:02.472] [INFO] default - 3300
+[2021-10-14T00:05:02.475] [INFO] default - 1981.2
+[2021-10-14T00:05:07.445] [INFO] default - 3300
+[2021-10-14T00:05:07.487] [INFO] default - 1981.2
+[2021-10-14T00:05:12.442] [INFO] default - 3300
+[2021-10-14T00:05:12.490] [INFO] default - 1981.2
+[2021-10-14T00:05:17.443] [INFO] default - 3300
+[2021-10-14T00:05:17.481] [INFO] default - 1981.2
+[2021-10-14T00:05:22.445] [INFO] default - 3300
+[2021-10-14T00:05:22.476] [INFO] default - 1981.2
+[2021-10-14T00:05:27.446] [INFO] default - 3300
+[2021-10-14T00:05:27.486] [INFO] default - 1981.2
+[2021-10-14T00:05:32.462] [INFO] default - 3300
+[2021-10-14T00:05:32.476] [INFO] default - 1981.2
+[2021-10-14T00:05:37.442] [INFO] default - 3300
+[2021-10-14T00:05:37.474] [INFO] default - 1981.2
+[2021-10-14T00:05:42.465] [INFO] default - 3300
+[2021-10-14T00:05:42.475] [INFO] default - 1981.2
+[2021-10-14T00:05:47.447] [INFO] default - 3300
+[2021-10-14T00:05:47.515] [INFO] default - 1981.2
+[2021-10-14T00:05:52.447] [INFO] default - 3300
+[2021-10-14T00:05:52.492] [INFO] default - 1981.2
+[2021-10-14T00:05:57.465] [INFO] default - 3300
+[2021-10-14T00:05:57.491] [INFO] default - 1981.2
+[2021-10-14T00:06:02.470] [INFO] default - 3300
+[2021-10-14T00:06:02.485] [INFO] default - 1981.2
+[2021-10-14T00:06:07.454] [INFO] default - 3300
+[2021-10-14T00:06:07.503] [INFO] default - 1981.2
+[2021-10-14T00:06:12.456] [INFO] default - 3300
+[2021-10-14T00:06:12.484] [INFO] default - 1981.2
+[2021-10-14T00:06:17.494] [INFO] default - 3300
+[2021-10-14T00:06:17.504] [INFO] default - 1981.2
+[2021-10-14T00:06:22.472] [INFO] default - 3300
+[2021-10-14T00:06:22.502] [INFO] default - 1981.2
+[2021-10-14T00:06:27.449] [INFO] default - 3300
+[2021-10-14T00:06:27.497] [INFO] default - 1981.2
+[2021-10-14T00:06:32.454] [INFO] default - 3300
+[2021-10-14T00:06:32.505] [INFO] default - 1981.2
+[2021-10-14T00:06:37.455] [INFO] default - 3300
+[2021-10-14T00:06:37.492] [INFO] default - 1981.2
+[2021-10-14T00:06:42.497] [INFO] default - 3300
+[2021-10-14T00:06:42.519] [INFO] default - 1981.2
+[2021-10-14T00:06:47.462] [INFO] default - 3300
+[2021-10-14T00:06:47.492] [INFO] default - 1981.2
+[2021-10-14T00:06:52.457] [INFO] default - 3300
+[2021-10-14T00:06:52.479] [INFO] default - 1981.2
+[2021-10-14T00:06:57.467] [INFO] default - 3300
+[2021-10-14T00:06:57.512] [INFO] default - 1981.2
+[2021-10-14T00:07:02.462] [INFO] default - 3300
+[2021-10-14T00:07:02.501] [INFO] default - 1981.2
+[2021-10-14T00:07:07.449] [INFO] default - 3300
+[2021-10-14T00:07:07.481] [INFO] default - 1981.2
+[2021-10-14T00:07:12.457] [INFO] default - 3300
+[2021-10-14T00:07:12.481] [INFO] default - 1981.2
+[2021-10-14T00:07:17.455] [INFO] default - 3300
+[2021-10-14T00:07:17.478] [INFO] default - 1981.2
+[2021-10-14T00:07:22.459] [INFO] default - 3300
+[2021-10-14T00:07:22.501] [INFO] default - 1981.2
+[2021-10-14T00:07:27.468] [INFO] default - 3300
+[2021-10-14T00:07:27.497] [INFO] default - 1981.2
+[2021-10-14T00:07:32.476] [INFO] default - 3300
+[2021-10-14T00:07:32.517] [INFO] default - 1981.2
+[2021-10-14T00:07:37.465] [INFO] default - 3300
+[2021-10-14T00:07:37.481] [INFO] default - 1981.2
+[2021-10-14T00:07:42.492] [INFO] default - 3300
+[2021-10-14T00:07:42.496] [INFO] default - 1981.2
+[2021-10-14T00:07:47.467] [INFO] default - 3300
+[2021-10-14T00:07:47.494] [INFO] default - 1981.2

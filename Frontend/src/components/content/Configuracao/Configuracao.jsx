@@ -63,8 +63,6 @@ const Configuracao = (props) => {
     } else {
       dados.controlar_demanda = 0;
     }
-    // let dados = [{ email: configuracoes.email, demanda_ponta: configuracoes.demanda_ponta, controlar_demanda: controle, demanda_fora_ponta: configuracoes.demanda_fora_ponta, horario_ponta: configuracoes.horario_ponta, limiar_atuacao:configuracoes.limiar_atuacao,tolerancia:configuracoes.tolerancia }]
-    console.log(dados);
     const salvarDados = async () => {
       try {
         setConfLoading(true);
@@ -134,7 +132,7 @@ const Configuracao = (props) => {
               </Row>
               <Row className="mb-3">
                 <Form.Group as={Col} controlId="demanda_ponta">
-                  <Form.Label>Demanda kW</Form.Label>
+                  <Form.Label>Demanda contratada kW</Form.Label>
                   <Form.Control
                     type="number"
                     value={configuracoes.demanda_ponta}
@@ -154,7 +152,7 @@ const Configuracao = (props) => {
                 </Form.Group>
 
                 <Form.Group as={Col} controlId="limiar_atuacao">
-                  <Form.Label>Limiar Atuação</Form.Label>
+                  <Form.Label>Limiar de atuação</Form.Label>
                   <Form.Control
                     type="number"
                     value={configuracoes.limiar_atuacao}
@@ -164,7 +162,7 @@ const Configuracao = (props) => {
                   />
                 </Form.Group>
                 <Form.Group as={Col} controlId="tolerancia">
-                  <Form.Label>Tolerância %</Form.Label>
+                  <Form.Label>Tolerância do controle %</Form.Label>
                   <Form.Control
                     type="number"
                     min="1"
@@ -188,7 +186,7 @@ const Configuracao = (props) => {
                   />
                 </Form.Group>
                 <Form.Group as={Col} md={3} controlId="controlar_demanda">
-                  <Form.Label>Monitoramento</Form.Label>
+                  <Form.Label>Controle</Form.Label>
                   <Form.Select
                     defaultValue={
                       configuracoes.controlar_demanda ? 'Ativo' : 'Desativado'

@@ -106,8 +106,8 @@ module.exports = (app) => {
     .post(app.api.atuador.salvarAtuador)
     .get(app.api.atuador.listarAtuador);
   app
-    .route('/teste')
-    .get(app.api.demanda.teste);
+    .route('/listarDashboard')
+    .get(app.api.demanda.listarDashboard);
   app
     .route('/atuador/:id')
     .all(authenticated)

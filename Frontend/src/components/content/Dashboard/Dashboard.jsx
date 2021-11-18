@@ -51,6 +51,7 @@ const Dashboard = () => {
         setControle({
           demanda: json[0].ultimaDemanda,
           status: json[0].controle_status,
+          monitoramento: json[0].controle_monitoramento,
         });
       } catch (error) {
         toast.error('Error em carregar os dados! ' + error);
@@ -87,7 +88,7 @@ const Dashboard = () => {
               </div>
             ) : (
               <div className={style.retangulo_texto}>
-                {controle.status ? (
+                {controle.monitoramento ? (
                   <div className={style.retangulo_texto}>
                     Ativo <FontAwesomeIcon icon={faCheckCircle} />
                   </div>

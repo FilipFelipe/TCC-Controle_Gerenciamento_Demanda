@@ -1,5 +1,4 @@
-require('dotenv').config();
-import mqtt from 'mqtt';
+var mqtt = require('mqtt')
 
 var url = 'mqtt://' + process.env.HOST_MQTT
 var options = {
@@ -8,7 +7,6 @@ var options = {
   username: process.env.USER_MQTT,
   password: process.env.PASSWORD_MQTT,
 };
-
 var client = mqtt.connect(url, options);
 
-export default client;
+module.exports = client

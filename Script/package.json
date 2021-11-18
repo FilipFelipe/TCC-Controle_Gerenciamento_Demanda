@@ -1,0 +1,25 @@
+{
+  "name": "geracao-dados",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mqtt.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.14.6",
+    "@babel/node": "7.14.7",
+    "@babel/plugin-proposal-class-properties": "7.14.5",
+    "@babel/preset-env": "7.14.7",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "knex": "^0.95.11",
+    "mqtt": "^4.2.8",
+    "mysql2": "^2.3.0"
+  }
+}
